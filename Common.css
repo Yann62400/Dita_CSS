@@ -56,3 +56,67 @@
     display: block;
 }
 /* test right/left*/
+
+/* SECTION ***col******/
+section[class='section col']{
+    column-count: 2;
+    column-gap: 1em;
+    position: relative;
+    display: block;
+    page-break-inside: avoid;
+    border: 2px solid black; 
+}
+section[class='section col']> .p,.ol,.ul{
+    font-size: 0.7rem;
+    /*line-height: 0.9rem;*/
+    position: relative;
+    padding: 0.2rem;
+    display: block;
+    break-inside: auto;
+    /*page-break-inside: avoid;*/
+    margin: 0.1rem;
+}
+
+/* SECTION ***col**End****/
+
+/****2col******/
+[class*='2col']{
+    column-count: 2;
+    /*column-gap: 1em;*/
+    position: relative;
+    display: block;
+    page-break-inside: avoid;
+    border: 2px solid black; 
+    font-size: 0.7rem;
+    padding: 0.2rem;
+    break-inside: auto;
+    margin: 0.1rem;
+}
+
+/* ***3col******/
+[class*='3col']{
+    column-count: 3;
+    /*column-gap: 1em;*/
+    position: relative;
+    display: block;
+    page-break-inside: avoid;
+    border: 2px solid black; 
+    font-size: 0.7rem;
+    padding: 0.2rem;
+    break-inside: auto;
+    margin: 0.1rem;
+}
+
+/****4col******/
+[class*='4col']{
+    column-count: 4;
+    /*column-gap: 1em;*/
+    position: relative;
+    display: block;
+    page-break-inside: avoid;
+    border: 2px solid black; 
+    font-size: 0.7rem;
+    padding: 0.2rem;
+    break-inside: auto;
+    margin: 0.1rem;
+}
