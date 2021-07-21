@@ -5,3 +5,54 @@
     background-color: #2499D5;
     color: #fff;
 }
+
+/* Down recentrage */
+[class*='Down5']{
+    transform: translateY(5%);
+}
+[class*='Down10']{
+    transform: translateY(10%);
+}
+[class*='Down15']{
+    transform: translateY(15%);
+}
+[class*='Down20']{
+    transform: translateY(20%);
+}
+[class*='Down25']{
+    transform: translateY(25%);
+}
+/* Down recentrage */
+
+/* test right/left*/
+[class*='Left75']{
+    width: 75%;
+    float:left;
+    display: block;
+}
+[class*='Right25']{
+    width: 24%;
+    float:right;
+    display: block;
+}
+[class*='Left50']{
+    width: 50%;
+    float:left;
+    display: block;
+}
+[class*='Right50']{
+    width: 50%;
+    float:right;
+    display: block;
+}
+[class*='Left25']{
+    width: 24%;
+    float:left;
+    display: block;
+}
+[class*='Right75']{
+    width: 75%;
+    float:right;
+    display: block;
+}
+/* test right/left*/
