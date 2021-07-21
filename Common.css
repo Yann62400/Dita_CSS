@@ -1,11 +1,11 @@
-/*[class*='HL']{
+[class*='HL']{
     display: inline; 
     padding: 5px;
     box-sizing: border-box;
     background-color: #2499D5;
     color: #fff;
 }
-*/
+
 /* Down recentrage */
 [class*='Down5']{
     transform: translateY(5%);
