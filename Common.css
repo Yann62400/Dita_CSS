@@ -1,0 +1,7 @@
+[class*='HL']{
+    display: inline; 
+    padding: 5px;
+    box-sizing: border-box;
+    background-color: #2499D5;
+    color: #fff;
+}
