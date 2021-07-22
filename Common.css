@@ -118,42 +118,5 @@ section[class='section col']> .p,.ol,.ul{
     margin: 0.1rem;
 }
 
-/* OL ***List order***HaltonList***/
-ol[class*='HaltonList']> {
-    position: relative;
-    display: block;
-    page-break-inside: avoid;
-    counter-reset: items; /* counter initialize + name 'items' */
-}
-ol[class*='HaltonList']>li {
-	list-style-type: none;
-	counter-increment: items; /* counter increment */
-	margin-bottom: 10px;
-    page-break-inside: avoid;
-    padding-top: 5px;
-}
 
-ol[class*='HaltonList']>li:before {
-	content: counter(items); /* counter display */
-    margin-right: 10px;
-    border-radius: 50%;
-    width: 12px;
-    height: 12px;
-    padding: 3px;
-    background: #2499D5;
-    /*border: 2px solid #666;*/
-    color: white;
-    text-align: center;
-    font: 10px Arial, sans-serif;
-    float: left;
-}
-ol[class='HaltonList box']> .p{
-    font-size: 12px;
-    /*color: #7c8d99;*/
-    display: block;
-    position: relative;
-    padding: 10px;
-}
-*/
-/* OL ***List order end******/
 
