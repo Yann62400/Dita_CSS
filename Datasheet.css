@@ -1,3 +1,36 @@
+/*Tech*/
+figure[class*='Tech']{
+    width: 220px;
+    height: 60px;
+    /*border:1px dotted black;*/
+    line-height: 100%;
+    display: inline-block;
+    overflow: hidden;
+    vertical-align: text-top;
+}
+
+figure[class*='Tech']>.image{
+    width: 55px;
+    /*border:1px dotted red;*/
+    float:left;
+    overflow: hidden;
+}
+
+figure[class*='Tech']>.p{
+    position:relative;
+    top:-5px;
+    font-size: 10px;
+    line-height: 11px;
+    /*border:1px dotted black;*/
+}
+
+figure[class*='Tech']>.p>strong{
+    display: block;
+    font-size: 11px;
+    margin-bottom: 5px;
+}
+/*Tech*/
+
 img[class='image Main']{
     width:70%;
     margin-top:50px;
@@ -18,3 +51,4 @@ img[class='image Little']{
     float:right;
     /*border:1px dotted black;*/
 }
+
