@@ -31,6 +31,25 @@ figure[class*='Tech']>.p>strong{
 }
 /*Tech*/
 
+/*Blueshape*/
+p[class='p BlueShape']{
+    display: inline-block;
+    width: 95%;
+    font-size: 12px;
+    padding: 5px 10px 5px 10px;
+    background-color: #2499d5;
+    color: white;
+    border-radius: 25px;
+    text-align: center;
+    margin: 5px auto;
+}
+
+p[class='p BlueShape']>strong{
+    font-size: 18px;
+    font-weight: bold;
+}
+/*Blueshape*/
+
 img[class='image Main']{
     width:70%;
     margin-top:50px;
