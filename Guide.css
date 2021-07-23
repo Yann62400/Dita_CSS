@@ -1,3 +1,37 @@
+/*Front page*/
+h1[class='title topictitle1']>img[class='image FrontPic']{
+    display: block;
+    width: 100%;
+    top: 50px;
+    position: relative;
+    /*padding: 20px;*/
+}
+
+h1[class='title topictitle1']>span[class='ph Product']{
+    display: block;
+    color: #2499d5;
+    padding-top: 5px;
+    font-size: 30px;
+}
+
+h1[class='title topictitle1']>span[class='ph SubProduct']{
+    display: block;
+    color: #2499d5;
+    padding-top: 5px;
+    font-size: 20px;
+}
+
+h1[class='title topictitle1']>span[class='ph DocType']{
+    display: block;
+    color: #2499d5;
+    top: 50px;
+    padding: 50px;
+    font-size: 20px;
+}
+/*Front page*/
+
+
+
 /* TABLE OF CONTENTS (TOC) NUMBERING */
 /* Level 1 (chapter-level) TOC numbering. */
 html {
