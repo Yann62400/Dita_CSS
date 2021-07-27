@@ -79,18 +79,6 @@ section[class='section col']> .p,.ol,.ul{
 
 /* SECTION ***col**End****/
 
-/****2col******/
-[class*='2col']{
-    column-count: 2;
-    /*column-gap: 1em;*/
-    position: relative;
-    display: block;
-    page-break-inside: avoid;
-    font-size: 0.7rem;
-    padding: 0.2rem;
-    break-inside: auto;
-    margin: 0.1rem;
-}
 
 /* ***3col******/
 [class*='3col']{
