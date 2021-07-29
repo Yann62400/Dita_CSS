@@ -86,7 +86,18 @@ section[class='section col']> .p,.ol,.ul{
     display: block;
 }
 
-
+/****2col******/
+[class*='2col']{
+    column-count: 2;
+    /*column-gap: 1em;*/
+    position: relative;
+    display: block;
+    page-break-inside: avoid;
+    font-size: 0.7rem;
+    break-inside: auto;
+    clear:both;
+    padding-bottom:20px;
+}
 
 /* ***3col******/
 [class*='3col']{
@@ -96,9 +107,9 @@ section[class='section col']> .p,.ol,.ul{
     display: block;
     page-break-inside: avoid;
     font-size: 0.7rem;
-    padding: 0.2rem;
     break-inside: auto;
-    margin: 0.1rem;
+    clear:both;
+    padding-bottom:20px;
 }
 
 /****4col******/
@@ -109,9 +120,9 @@ section[class='section col']> .p,.ol,.ul{
     display: block;
     page-break-inside: avoid;
     font-size: 0.7rem;
-    padding: 0.2rem;
     break-inside: auto;
-    margin: 0.1rem;
+    clear:both;
+    padding-bottom:20px;
 }
 /* OL ***List order***HaltonList***/
 ol[class*='HaltonList']> {
