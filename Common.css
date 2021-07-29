@@ -163,6 +163,7 @@ figure[class*='Icons']{
 }
 figure[class*='Icons']>img{
     width:50px;
+    Height:50px;
     /*vertical-align: middle;*/
     float: left;
 }
