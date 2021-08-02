@@ -190,6 +190,17 @@ figure[class*='Icons']>img[class*='200']{
 }
 /*Icons*/
 
+/*page break*/
+[class*=page-break-before] {
+    page-break-before: always;
+    visibility: hidden;
+}
+
+[class*=page-break-after] {
+    page-break-after: always;
+    visibility: hidden;
+}
+/*page break*/
 
 
 
