@@ -201,6 +201,12 @@ figure[class*='Icons']>img[class*='200']{
     visibility: hidden;
 }
 /*page break*/
+/*spacer*/
+[class*='Spacer']{
+    clear:both;
+    visibility: hidden;
+}
+/*spacer*/
 
 
 
