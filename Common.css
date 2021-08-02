@@ -194,6 +194,10 @@ figure[class*='Icons']>img[class*='200']{
     page-break-before: always;
 }
 
+[class*=page-break-after] {
+    page-break-after: always;
+}
+
 
 
 
