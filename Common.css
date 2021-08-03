@@ -178,12 +178,7 @@ figure[class*='Icons']>img{
     /*vertical-align: middle;*/
     float: left;
 }
-figure[class*='Icons']>p{
-    display:inline;
-    position:relative;
-    /*Top: 5px;*/
-    padding: 10px;
-}
+
 
 figure[class*='Icons']>img[class*='200']{
     width:100px;
