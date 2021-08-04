@@ -203,5 +203,15 @@ figure[class*='Icons']>img[class*='200']{
 }
 /*spacer*/
 
+/*color*/
+p[class*='red']{
+    color:red;
+}
+
+p[class*='orange']{
+    color:orange;
+}
+/*color*/
+
 
 
