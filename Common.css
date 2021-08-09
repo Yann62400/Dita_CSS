@@ -59,11 +59,13 @@
     width: 40%;
     float:left;
     display: block;
+	clear:both;
 }
 [class*='Right40']{
     width: 40%;
     float:right;
     display: block;
+	clear:both;
 }
 [class*='Right60']{
     width: 60%;
