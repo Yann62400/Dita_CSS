@@ -59,20 +59,16 @@
     width: 40%;
     float:left;
     display: block;
-
-}
 }
 [class*='Right40']{
     width: 40%;
     float:right;
     display: block;
-
 }
 [class*='Right60']{
     width: 60%;
     float:right;
     display: block;
-
 }
 /* test right/left*/
 
