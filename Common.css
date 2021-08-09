@@ -61,6 +61,16 @@
     float:right;
     display: block;
 }
+[class*='Left40']{
+    width: 40%;
+    float:left;
+    display: block;
+}
+[class*='Right40']{
+    width: 40%;
+    float:right;
+    display: block;
+}
 /* test right/left*/
 
 /* SECTION ***col******/
