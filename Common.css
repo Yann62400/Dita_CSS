@@ -26,7 +26,7 @@
 
 /* test right/left*/
 [class*='Left75']{
-    width: 75%;
+    width: 74%;
     float:left;
     display: block;
 }
@@ -36,12 +36,12 @@
     display: block;
 }
 [class*='Left50']{
-    width: 50%;
+    width: 49%;
     float:left;
     display: block;
 }
 [class*='Right50']{
-    width: 50%;
+    width: 49%;
     float:right;
     display: block;
 }
@@ -51,23 +51,23 @@
     display: block;
 }
 [class*='Right75']{
-    width: 75%;
+    width: 74%;
     float:right;
     display: block;
 }
 
 [class*='Right60']{
-    width: 60%;
+    width: 59%;
     float:right;
     display: block;
 }
 [class*='Left40']{
-    width: 40%;
+    width: 39%;
     float:left;
     display: block;
 }
 [class*='Right40']{
-    width: 40%;
+    width: 39%;
     float:right;
     display: block;
 }
