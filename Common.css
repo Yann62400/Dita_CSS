@@ -173,21 +173,6 @@ ol[class='HaltonList box']> .p{
 }
 /* OL ***List order end******/
 
-/*Icons*/
-figure[class*='Icons']{
-    display:block;
-}
-figure[class*='Icons']>img{
-    width:50px;
-    /*vertical-align: middle;*/
-    float: left;
-}
-
-
-figure[class*='Icons']>img[class*='200']{
-    width:100px;
-}
-/*Icons*/
 
 /*page break*/
 [class*=page-break-before] {
