@@ -6,6 +6,22 @@
     color: #fff;
 }
 
+[class*='HTSUser']{
+    display: inline; 
+    padding: 5px;
+    box-sizing: border-box;
+    background-color: #2499D5;
+    color: #fff;
+}
+[class*='HTSAdmin']{
+    display: inline; 
+    padding: 5px;
+    box-sizing: border-box;
+    background-color: #6E7275;
+    color: #fff;
+}
+
+
 /* Down recentrage */
 [class*='Down5']{
     transform: translateY(5%);
