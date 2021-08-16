@@ -20,6 +20,18 @@
     background-color: #6E7275;
     color: #fff;
 }
+[class*='Clickable']{
+    display: inline; 
+    padding: 5px;
+    box-sizing: border-box;
+    background-color: #2499D5;
+    color: #fff;
+    margin-right: 5px;
+}
+[class*='Clickable']>img{
+    width:15px;
+    vertical-align:middle;
+}
 
 
 /* Down recentrage */
