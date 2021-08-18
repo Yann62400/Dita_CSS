@@ -99,6 +99,26 @@
     float:right;
     display: block;
 }
+[class*='Right65']{
+    width: 64%;
+    float:right;
+    display: block;
+}
+[class*='Left65']{
+    width: 64%;
+    float:left;
+    display: block;
+}
+[class*='Right35']{
+    width: 34%;
+    float:right;
+    display: block;
+}
+[class*='Left35']{
+    width: 34%;
+    float:left;
+    display: block;
+}
 /* test right/left*/
 
 /* SECTION ***col******/
