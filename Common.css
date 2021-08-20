@@ -53,23 +53,33 @@
 /* Down recentrage */
 
 /* test right/left*/
-[class*='Left75']{
-    width: 74%;
+[class*='Left10']{
+    width: 9%;
     float:left;
     display: block;
 }
-[class*='Right25']{
-    width: 24%;
+[class*='Right10']{
+    width: 9%;
     float:right;
     display: block;
 }
-[class*='Left50']{
-    width: 49%;
+[class*='Left15']{
+    width: 14%;
     float:left;
     display: block;
 }
-[class*='Right50']{
-    width: 49%;
+[class*='Right15']{
+    width: 14%;
+    float:right;
+    display: block;
+}
+[class*='Left20']{
+    width: 19%;
+    float:left;
+    display: block;
+}
+[class*='Right20']{
+    width: 19%;
     float:right;
     display: block;
 }
@@ -78,14 +88,28 @@
     float:left;
     display: block;
 }
-[class*='Right75']{
-    width: 74%;
+[class*='Right25']{
+    width: 24%;
     float:right;
     display: block;
 }
-
-[class*='Right60']{
-    width: 59%;
+[class*='Left30']{
+    width: 29%;
+    float:left;
+    display: block;
+}
+[class*='Right30']{
+    width: 29%;
+    float:right;
+    display: block;
+}
+[class*='Left35']{
+    width: 34%;
+    float:left;
+    display: block;
+}
+[class*='Right35']{
+    width: 34%;
     float:right;
     display: block;
 }
@@ -99,8 +123,43 @@
     float:right;
     display: block;
 }
-[class*='Right65']{
-    width: 64%;
+[class*='Left45']{
+    width: 44%;
+    float:left;
+    display: block;
+}
+[class*='Right45']{
+    width: 44%;
+    float:right;
+    display: block;
+}
+[class*='Left50']{
+    width: 49%;
+    float:left;
+    display: block;
+}
+[class*='Right50']{
+    width: 49%;
+    float:right;
+    display: block;
+}
+[class*='Left55']{
+    width: 54%;
+    float:left;
+    display: block;
+}
+[class*='Right55']{
+    width: 54%;
+    float:right;
+    display: block;
+}
+[class*='Left60']{
+    width: 59%;
+    float:left;
+    display: block;
+}
+[class*='Right60']{
+    width: 59%;
     float:right;
     display: block;
 }
@@ -109,14 +168,59 @@
     float:left;
     display: block;
 }
-[class*='Right35']{
-    width: 34%;
+[class*='Right65']{
+    width: 64%;
     float:right;
     display: block;
 }
-[class*='Left35']{
-    width: 34%;
+[class*='Left70']{
+    width: 69%;
     float:left;
+    display: block;
+}
+[class*='Right70']{
+    width: 69%;
+    float:right;
+    display: block;
+}
+[class*='Left75']{
+    width: 74%;
+    float:left;
+    display: block;
+}
+[class*='Right75']{
+    width: 74%;
+    float:right;
+    display: block;
+}
+[class*='Left80']{
+    width: 79%;
+    float:left;
+    display: block;
+}
+[class*='Right80']{
+    width: 79%;
+    float:right;
+    display: block;
+}
+[class*='Left85']{
+    width: 84%;
+    float:left;
+    display: block;
+}
+[class*='Right85']{
+    width: 84%;
+    float:right;
+    display: block;
+}
+[class*='Left90']{
+    width: 89%;
+    float:left;
+    display: block;
+}
+[class*='Right90']{
+    width: 89%;
+    float:right;
     display: block;
 }
 /* test right/left*/
