@@ -20,6 +20,21 @@
     background-color: #6E7275;
     color: #fff;
 }
+[class*='DarkGrey']{
+    display: inline; 
+    padding: 5px;
+    box-sizing: border-box;
+    background-color: #707476;
+    color: #fff;
+}
+[class*='LightGrey']{
+    display: inline; 
+    padding: 5px;
+    box-sizing: border-box;
+    background-color: #C0C2C9;
+    color: #fff;
+}
+
 [class*='Clickable']{
     display: inline; 
     padding: 5px;
