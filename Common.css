@@ -356,6 +356,8 @@ ol[class='HaltonList box']> .p{
 [class*='Spacer']{
     clear:both;
     visibility: hidden;
+	font-size: 8px;
+    line-height: 8px;
 }
 /*spacer*/
 
