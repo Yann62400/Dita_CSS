@@ -1,4 +1,4 @@
-[class*='HL']{
+[class*='hl-blue']{
     display: inline; 
     padding-top: 1px;
 	padding-bottom: 1px;
@@ -7,6 +7,16 @@
     box-sizing: border-box;
     background-color: #2499D5;
     color: #fff;
+}
+
+[class*='hl-grey']{
+    display: inline; 
+    padding-top: 1px;
+	padding-bottom: 1px;
+	padding-right: 5px;
+	padding-left: 5px;
+    box-sizing: border-box;
+    background-color: #DADADA;
 }
 
 [class*='HTSUser']{
