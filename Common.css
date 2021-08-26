@@ -1,3 +1,14 @@
+[class*='HL']{
+    display: inline; 
+    padding-top: 1px;
+	padding-bottom: 1px;
+	padding-right: 5px;
+	padding-left: 5px;
+    box-sizing: border-box;
+    background-color: #2499D5;
+    color: #fff;
+}
+
 [class*='HTSUser']{
     display: inline; 
     padding: 5px;
