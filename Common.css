@@ -370,6 +370,8 @@ p[class*='orange']{
     color:orange;
 }
 /*color*/
-
+p[class*='blue']{
+    color:blue;
+}
 
 
