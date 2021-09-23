@@ -22,3 +22,8 @@
     font-size: 13px;
     line-height: 13px; 
 }
+[class*='font913']{
+    font-size: 9px;
+    line-height: 13px; 
+}
+
