@@ -26,4 +26,12 @@
     font-size: 9px;
     line-height: 13px; 
 }
+[class*='font9515']{
+    font-size: 9.5px;
+    line-height: 15px; 
+}
+[class*='font1630']{
+    font-size: 16px;
+    line-height: 30px; 
+}
 
