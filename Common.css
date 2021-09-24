@@ -373,6 +373,14 @@ ol[class='HaltonList box']> .p{
     line-height: 8px;
 }
 /*spacer*/
+/*space13*/
+[class*='Space13']{
+    clear:both;
+    visibility: hidden;
+	font-size: 17px;
+    line-height: 17px;
+}
+/*spacer*/
 
 /*color*/
 p[class*='red']{
