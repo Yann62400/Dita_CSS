@@ -251,6 +251,16 @@
     float:right;
     display: block;
 }
+[class*='Left95']{
+    width: 94%;
+    float:left;
+    display: block;
+}
+[class*='Right95']{
+    width: 94%;
+    float:right;
+    display: block;
+}
 /* test right/left*/
 
 /* SECTION ***col******/
