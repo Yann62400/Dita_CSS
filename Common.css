@@ -405,4 +405,17 @@ p[class*='blue']{
     color:blue;
 }
 
+[class*='Scale90']{
+    width: 90%;
+    display: block;
+}
+[class*='Scale80']{
+    width: 80%;
+    display: block;
+}
+[class*='Scale70']{
+    width: 70%;
+    display: block;
+}
+
 
