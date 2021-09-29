@@ -302,7 +302,7 @@ section[class='section col']> .p,.ol,.ul{
     font-size: 0.7rem;
     break-inside: auto;
     clear:both;
-    padding-bottom:10px;
+    padding-bottom:5px;
 }
 
 /* ***3col******/
@@ -315,7 +315,7 @@ section[class='section col']> .p,.ol,.ul{
     font-size: 0.7rem;
     break-inside: auto;
     clear:both;
-    padding-bottom:20px;
+    padding-bottom:5px;
 }
 
 /****4col******/
@@ -328,7 +328,7 @@ section[class='section col']> .p,.ol,.ul{
     font-size: 0.7rem;
     break-inside: auto;
     clear:both;
-    padding-bottom:20px;
+    padding-bottom:5px;
 }
 /* OL ***List order***HaltonList***/
 ol[class*='HaltonList']> {
