@@ -81,6 +81,16 @@
 /* Down recentrage */
 
 /* test right/left*/
+[class*='Left05']{
+    width: 4%;
+    float:left;
+    display: block;
+}
+[class*='Right05']{
+    width: 4%;
+    float:right;
+    display: block;
+}
 [class*='Left10']{
     width: 9%;
     float:left;
