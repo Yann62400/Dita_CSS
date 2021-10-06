@@ -388,12 +388,46 @@ ol[class*='HaltonList']>li:before {
     font: 10px Arial, sans-serif;
     float: left;
 }
-ol[class='HaltonList box']> .p{
+ol[class='HaltonList']> .p{
     font-size: 12px;
     display: inline;
     position: relative;
 }
 /* OL ***List order end******/
+
+/* OL ***List order***HaltonList***/
+ol[class*='HaltonBlackList']> {
+    position: relative;
+    display: block;
+    page-break-inside: avoid;
+    counter-reset: items; /* counter initialize + name 'items' */
+}
+ol[class*='HaltonBlackList']>li {
+	list-style-type: none;
+	counter-increment: items; /* counter increment */
+    page-break-inside: avoid;
+}
+ol[class*='HaltonBlackList']>li:before {
+	content: counter(items); /* counter display */
+    margin-left: -25px;
+    border-radius: 50%;
+    width: 12px;
+    height: 12px;
+    padding: 3px;
+    background: #000000 ;
+    /*border: 2px solid #666;*/
+    color: white;
+    text-align: center;
+    font: 10px Arial, sans-serif;
+    float: left;
+}
+ol[class='HaltonBlackList']> .p{
+    font-size: 12px;
+    display: inline;
+    position: relative;
+}
+/* OL ***List order end******/
+
 
 
 /*page break*/
