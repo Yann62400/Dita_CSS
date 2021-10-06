@@ -531,7 +531,7 @@ ol[class='hlist']> .p{
 
 /* OL ***List order***HaltonList***/
  ol[class*='blist'] {
-   list-style: none;
+   list-style:  upper-alpha;
    counter-reset: item;
  }
  ol[class*='blist']>li {
