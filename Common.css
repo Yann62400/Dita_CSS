@@ -496,7 +496,6 @@ ol[class*='hlist']>li {
     page-break-inside: avoid;
 }
 ol[class*='hlist']>li:before {
-	content: counter(items); /* counter display */
     margin-left: -25px;
     border-radius: 50%;
     width: 12px;
@@ -527,7 +526,6 @@ ol[class*='blist']>li {
     page-break-inside: avoid;
 }
 ol[class*='blist']>li:before {
-	content: counter(items); /* counter display */
     margin-left: -25px;
     border-radius: 50%;
     width: 12px;
