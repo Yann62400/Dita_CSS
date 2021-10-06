@@ -408,6 +408,7 @@ ol[class*='HaltonBlackList']>li {
     page-break-inside: avoid;
 }
 ol[class*='HaltonBlackList']>li:before {
+	list-style-type: upper-alpha;
 	content: counter(items); /* counter display */
     margin-left: -25px;
     border-radius: 50%;
