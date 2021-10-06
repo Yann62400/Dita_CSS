@@ -397,6 +397,7 @@ ol[class='HaltonList']> .p{
 
 /* OL ***List order***HaltonList***/
 ol[class*='HaltonBlackList']> {
+	list-style-type: upper-alpha;
     position: relative;
     display: block;
     page-break-inside: avoid;
