@@ -397,14 +397,14 @@ ol[class='HaltonList']> .p{
 
 /* OL ***List order***HaltonList***/
 ol[class*='HaltonBlackList']> {
-	list-style-type: upper-alpha;
+    list-style-type: upper-alpha;
     position: relative;
     display: block;
     page-break-inside: avoid;
     counter-reset: items; /* counter initialize + name 'items' */
 }
 ol[class*='HaltonBlackList']>li {
-	list-style-type: none;
+	list-style-type: upper-alpha;
 	counter-increment: items; /* counter increment */
     page-break-inside: avoid;
 }
