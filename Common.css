@@ -404,7 +404,6 @@ ol[class*='HaltonBlackList']> {
     counter-reset: items; /* counter initialize + name 'items' */
 }
 ol[class*='HaltonBlackList']>li {
-	list-style-type: upper-alpha;
 	counter-increment: items; /* counter increment */
     page-break-inside: avoid;
 }
