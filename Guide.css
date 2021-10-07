@@ -16,18 +16,12 @@ h1[class='title topictitle1']>span[class='ph Product']{
 
 h1[class='title topictitle1']>span[class='ph SubProduct']{
     display: block;
-    color: #2499d5;
+    color: #4a4a49;
     padding-top: 5px;
     font-size: 20px;
 }
 
-h1[class='title topictitle1']>span[class='ph DocType']{
-    display: block;
-    color: #2499d5;
-    top: 50px;
-    padding: 50px;
-    font-size: 20px;
-}
+
 /*Front page*/
 
 
