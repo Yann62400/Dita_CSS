@@ -21,6 +21,14 @@ h1[class='title topictitle1']>span[class='ph SubProduct']{
     font-size: 20px;
 }
 
+h1[class='title topictitle1']>span[class='ph DocType']{
+    display: inline-block;
+    color: #ffffff;
+    Background: #2499D5;
+    margin-top: 60px;
+    padding: 5px;
+    font-size: 20px;
+}
 
 /*Front page*/
 
