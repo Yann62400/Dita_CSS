@@ -335,7 +335,6 @@ section[class='section col']> .p,.ol,.ul{
     break-inside: auto;
     clear:both;
     padding-bottom:5px;
-	margin: 10px 0 10px 0;
 }
 
 /* ***3col******/
@@ -349,7 +348,6 @@ section[class='section col']> .p,.ol,.ul{
     break-inside: auto;
     clear:both;
     padding-bottom:5px;
-	margin: 10px 0 10px 0;
 }
 
 /****4col******/
@@ -363,7 +361,6 @@ section[class='section col']> .p,.ol,.ul{
     break-inside: auto;
     clear:both;
     padding-bottom:5px;
-	margin: 10px 0 10px 0;
 }
 /* OL ***List order***HaltonList***/
 ol[class*='HaltonList']> {
