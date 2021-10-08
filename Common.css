@@ -483,6 +483,11 @@ p[class*='blue']{
     display: block;
 }
 
+[class*='bframe']{
+    border-width:0.5px;
+    border-style:solid;
+    border-color:black;
+}
 
 
 
