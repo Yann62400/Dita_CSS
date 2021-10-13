@@ -82,6 +82,7 @@ h1[class='title topictitle1 IconTech']{
     font-size: 20px;
     font-weight: normal;
     page-break-before: always;
+    margin:auto;
 }
 
 h1[class='title topictitle1 IconTech']>img[class='image']{
@@ -94,7 +95,31 @@ h1[class='title topictitle1 IconTech']>img[class='image']{
     /*padding: 20px;*/
 }
 
-h1[class='title topictitle1 IconTech']>span[class='ph']{
+
+h1[class='title topictitle1 IconTechSub']{
+    width: 300px;
+    height: 50px;
+    background-color: #2499d5;
+    color: white;
+    display: block;
+    /*left: 25px;*/
+    border-radius: 25px;
+    font-size: 20px;
+    font-weight: normal;
+    page-break-before: always;
+}
+
+h1[class='title topictitle1 IconTechSub']>img[class='image']{
+    display: inline;
+    position: relative;
+    float: left;
+    width: 50px;
+    /*top: 50px;*/
+    position: relative;
+    /*padding: 20px;*/
+}
+
+h1[class='title topictitle1 IconTechSub']>span[class='ph']{
     display: block;
     font-size: 12px;
 }
