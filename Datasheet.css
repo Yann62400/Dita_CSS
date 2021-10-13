@@ -71,6 +71,28 @@ img[class='image Little']{
     /*border:1px dotted black;*/
 }
 
+h1[class='title topictitle1 IconTech']{
+    width: 300px;
+    height: 50px;
+    background-color: #2499d5;
+    color: white;
+    display: block;
+    /*left: 25px;*/
+    border-radius: 25px;
+    font-size: 20px;
+    font-weight: normal;
+    page-break-before: always;
+    padding:10px 0;
+}
+
+h1[class='title topictitle1 IconTech']>img[class='image']{
+    display: inline;
+    position: relative;
+    float: left;
+    width: 50px;
+    transform: translateY(-10px);
+}
+
 
 h1[class='title topictitle1 IconTechSub']{
     width: 300px;
