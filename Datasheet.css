@@ -92,7 +92,7 @@ h1[class='title topictitle1 IconTech']>img[class='image']{
     width: 50px;
     /*top: 50px;*/
     position: relative;
-    padding:0 0 10px;
+    padding:-10px 0;
 }
 
 
