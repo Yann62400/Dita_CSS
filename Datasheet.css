@@ -82,7 +82,7 @@ h1[class='title topictitle1 IconTech']{
     font-size: 20px;
     font-weight: normal;
     page-break-before: always;
-    margin:auto;
+    padding:15 0;
 }
 
 h1[class='title topictitle1 IconTech']>img[class='image']{
