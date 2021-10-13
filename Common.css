@@ -489,6 +489,10 @@ p[class*='blue']{
     border-color:black;
 }
 
+[class*='center']{
+    text-align: center;
+}
+
 
 
 
