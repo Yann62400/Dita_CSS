@@ -457,19 +457,6 @@ ol[class='HaltonBlackList']> .p{
 }
 /*spacer*/
 
-/*color*/
-p[class*='red']{
-    color:red;
-}
-
-p[class*='orange']{
-    color:orange;
-}
-/*color*/
-p[class*='blue']{
-    color:#2499D5;
-}
-
 [class*='Scale90']{
     width: 90%;
     display: block;
