@@ -55,20 +55,16 @@
     background-color: #6E7275;
     color: #fff;
 }
-[class*='DarkGrey']{
-    display: inline; 
-    padding: 5px;
-    box-sizing: border-box;
-    background-color: #707476;
-    color: #fff;
-}
-[class*='LightGrey']{
-    display: inline; 
-    padding: 5px;
-    box-sizing: border-box;
-    background-color: #C0C2C9;
-    color: #fff;
-}
+
+[class*='smarteh']{
+	display: inline; 
+    background-color: whitesmoke;
+    color: grey;
+    font-weight: bold;
+    margin:2px;
+    border:1px solid green;
+    padding: 1px 2px;
+    }
 
 [class*='Clickable']{
     display: inline; 
