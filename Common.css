@@ -6,7 +6,7 @@
 	padding-left: 5px;
     box-sizing: border-box;
     background-color: #2499D5;
-    color: #ffffff;
+    color: white;
 }
 
 [class*='hl-red']{
@@ -17,7 +17,7 @@
 	padding-left: 5px;
     box-sizing: border-box;
     background-color: #D2523E;
-    color: #ffffff;
+    color: white;
 }
 
 [class*='hl-grey']{
