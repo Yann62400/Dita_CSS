@@ -476,6 +476,170 @@ ol[class='HaltonBlackList']> .p{
     text-align: center;
 }
 
+/*guideref*/
+.guideref{
+    display: block;
+    /*width:650px;*/
+    padding:10px 0 10px 0;
+}
+.guideref>figcaption{
+    width: 89%;
+    float:right;
+    display: block;
+    color:#2499d5;
+    font-weight: bold;
+    font-size: 18px;
+}
+.guideref>figcaption>span{
+    display: none;
+}
+.guideref>p{
+    width: 89%;
+    float:right;
+    display: block;
+    color:black;
+    border-width:2px;
+    border-left:solid;
+    border-color:#2499d5;
+    padding-left: 5px;
+}
+.guideref>img{
+    width: 10%;
+    float:left;
+    display: block;
+}
+
+
+/*Warning*/
+.Warning{
+    display: block;
+    /*width:650px;*/
+    padding:10px 0 10px 0;
+}
+.Warning>figcaption{
+    width: 89%;
+    float:right;
+    display: block;
+    color:#F08118;
+    font-weight: bold;
+    font-size: 18px;
+}
+.Warning>figcaption>span{
+    display: none;
+}
+.Warning>p{
+    width: 89%;
+    float:right;
+    display: block;
+    color:black;
+    border-width:2px;
+    border-left:solid;
+    border-color:#F08118;
+    padding-left: 5px;
+}
+.Warning>img{
+    width: 10%;
+    float:left;
+    display: block;
+}
+/*notice*/
+.Notice{
+    display: block;
+    /*width:650px;*/
+    padding:10px 0 10px 0;
+}
+.Notice>figcaption{
+    width: 89%;
+    float:right;
+    display: block;
+    color:#236FB6;
+    font-weight: bold;
+    font-size: 18px;
+}
+.Notice>figcaption>span{
+    display: none;
+}
+.Notice>p{
+     width: 89%;
+    float:right;
+    display: block;
+    color:black;
+    border-width:2px;
+    border-left:solid;
+    border-color:#236FB6;
+    padding-left: 5px;
+}
+.Notice>img{
+    width: 10%;
+    float:left;
+    display: block;
+}
+
+/*caution*/
+.Caution{
+    display: block;
+    /*width:650px;*/
+    padding:10px 0 10px 0;
+}
+.Caution>figcaption{
+    width: 89%;
+    float:right;
+    display: block;
+    color:#F4E724;
+    font-weight: bold;
+    font-size: 18px;
+}
+.Caution>figcaption>span{
+    display: none;
+}
+.Caution>p{
+     width: 89%;
+    float:right;
+    display: block;
+    color:black;
+    border-width:2px;
+    border-left:solid;
+    border-color:#F4E724;
+    padding-left: 5px;
+}
+.Caution>img{
+    width: 10%;
+    float:left;
+    display: block;
+}
+
+/*danger*/
+.Danger{
+    display: block;
+    /*width:650px;*/
+    padding:10px 0 10px 0;
+}
+.Danger>figcaption{
+    width: 89%;
+    float:right;
+    display: block;
+    color:#CE1327;
+    font-weight: bold;
+    font-size: 18px;
+}
+.Danger>figcaption>span{
+    display: none;
+}
+.Danger>p{
+     width: 89%;
+    float:right;
+    display: block;
+    color:black;
+    border-width:2px;
+    border-left:solid;
+    border-color:#CE1327;
+    padding-left: 5px;
+}
+.Danger>img{
+    width: 10%;
+    float:left;
+    display: block;
+}
 
 
 
