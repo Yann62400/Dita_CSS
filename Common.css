@@ -522,7 +522,7 @@ ol[class='HaltonBlackList']> .p{
     display: block;
     color:#F08118;
     font-weight: bold;
-    font-size: 18px;
+    font-size: 14px;
 }
 .Warning>figcaption>span{
     display: none;
@@ -554,7 +554,7 @@ ol[class='HaltonBlackList']> .p{
     display: block;
     color:#236FB6;
     font-weight: bold;
-    font-size: 18px;
+    font-size: 14px;
 }
 .Notice>figcaption>span{
     display: none;
@@ -587,7 +587,7 @@ ol[class='HaltonBlackList']> .p{
     display: block;
     color:#F4E724;
     font-weight: bold;
-    font-size: 18px;
+    font-size: 14px;
 }
 .Caution>figcaption>span{
     display: none;
@@ -620,7 +620,7 @@ ol[class='HaltonBlackList']> .p{
     display: block;
     color:#CE1327;
     font-weight: bold;
-    font-size: 18px;
+    font-size: 14px;
 }
 .Danger>figcaption>span{
     display: none;
