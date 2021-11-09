@@ -488,7 +488,7 @@ ol[class='HaltonBlackList']> .p{
     display: block;
     color:#2499d5;
     font-weight: bold;
-    font-size: 18px;
+    font-size: 14px;
 }
 .guideref>figcaption>span{
     display: none;
@@ -568,6 +568,7 @@ ol[class='HaltonBlackList']> .p{
     border-left:solid;
     border-color:#236FB6;
     padding-left: 5px;
+	margin-top: 0px;
 }
 .Notice>img{
     width: 10%;
