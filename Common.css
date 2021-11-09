@@ -502,6 +502,7 @@ ol[class='HaltonBlackList']> .p{
     border-left:solid;
     border-color:#2499d5;
     padding-left: 5px;
+	margin-top: 0px;
 }
 .guideref>img{
     width: 10%;
@@ -536,41 +537,9 @@ ol[class='HaltonBlackList']> .p{
     border-left:solid;
     border-color:#F08118;
     padding-left: 5px;
-}
-.Warning>img{
-    width: 10%;
-    float:left;
-    display: block;
-}
-/*notice*/
-.Notice{
-    display: block;
-    /*width:650px;*/
-    padding:10px 0 10px 0;
-}
-.Notice>figcaption{
-    width: 89%;
-    float:right;
-    display: block;
-    color:#236FB6;
-    font-weight: bold;
-    font-size: 14px;
-}
-.Notice>figcaption>span{
-    display: none;
-}
-.Notice>p{
-     width: 89%;
-    float:right;
-    display: block;
-    color:black;
-    border-width:2px;
-    border-left:solid;
-    border-color:#236FB6;
-    padding-left: 5px;
 	margin-top: 0px;
 }
-.Notice>img{
+.Warning>img{
     width: 10%;
     float:left;
     display: block;
@@ -602,6 +571,7 @@ ol[class='HaltonBlackList']> .p{
     border-left:solid;
     border-color:#F4E724;
     padding-left: 5px;
+	margin-top: 0px;
 }
 .Caution>img{
     width: 10%;
@@ -635,8 +605,42 @@ ol[class='HaltonBlackList']> .p{
     border-left:solid;
     border-color:#CE1327;
     padding-left: 5px;
+	margin-top: 0px;
 }
 .Danger>img{
+    width: 10%;
+    float:left;
+    display: block;
+}
+/*notice*/
+.Notice{
+    display: block;
+    /*width:650px;*/
+    padding:10px 0 10px 0;
+}
+.Notice>figcaption{
+    width: 89%;
+    float:right;
+    display: block;
+    color:#236FB6;
+    font-weight: bold;
+    font-size: 14px;
+}
+.Notice>figcaption>span{
+    display: none;
+}
+.Notice>p{
+     width: 89%;
+    float:right;
+    display: block;
+    color:black;
+    border-width:2px;
+    border-left:solid;
+    border-color:#236FB6;
+    padding-left: 5px;
+	margin-top: 0px;
+}
+.Notice>img{
     width: 10%;
     float:left;
     display: block;
