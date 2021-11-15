@@ -476,6 +476,76 @@ ol[class='HaltonBlackList']> .p{
     text-align: center;
 }
 
+/* Warnings etc..*/
+.guideref, .Warning, .Caution, .Danger, .Sustainability, .Notice, .Environment {
+    display: block;
+}
+
+.guideref>figcaption, .Warning>figcaption, .Caution>figcaption, .Danger>figcaption, .Sustainability>figcaption, .Notice>figcaption {
+    width: 89%;
+    float:right;
+    display: block;
+    font-weight: bold;
+    font-size: 14px;
+}
+
+.guideref>figcaption{color:#2499d5;}
+.Warning>figcaption{color:#F08118;}
+.Caution>figcaption{color:#F4E724;}
+.Danger>figcaption{color:#CE1327;}
+.Sustainability>figcaption{color:black;}
+.Notice>figcaption{color:#236FB6;}
+
+.Environment>figcaption {    
+    width: 92%;
+    float:right;
+    display: block;
+    color:#48AC33;
+    font-weight: bold;
+    font-size: 18px;
+    border-left:solid;
+    border-color:#48AC33;
+    padding-left: 5px;
+    margin-top: 15px;
+}
+.guideref>figcaption>span, .Warning>figcaption>span, .Caution>figcaption>span, .Danger>figcaption>span, .Sustainability>figcaption>span, .Notice>figcaption>span, .Environment>figcaption>span {
+    display: none;
+}
+.guideref>p, .Warning>p, .Caution>p, .Danger>p, .Sustainability>p, .Notice>p {
+    width: 89%;
+    float:right;
+    display: block;
+    color:black;
+    border-width:2px;
+    border-left:solid;
+    padding-left: 5px;
+	margin-top: 0px;
+    margin-bottom: 5px;
+}
+.guideref>p{border-color:#2499d5;}
+.Warning>p{border-color:#F08118;}
+.Caution>p{border-color:#F4E724;}
+.Danger>p{border-color:#CE1327;}
+.Sustainability>p{border-color:black;}
+.Notice>p{border-color:#236FB6;}
+
+.guideref>img, .Warning>img, .Caution>img, .Danger>img, .Sustainability>img, .Notice>img {
+    width: 10%;
+    float:left;
+    display: block;
+}
+.Environment>img{
+    width: 7%;
+    float:left;
+    display: block;
+}
+
+.guideref::after, .Warning::after, .Caution::after, .Danger::after, .Sustainability::after, .Notice::after, .Environment::after {
+    content: "";
+    display: block;
+    clear: both;
+}
+
 
 
 
