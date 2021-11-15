@@ -659,6 +659,74 @@ ol[class='HaltonBlackList']> .p{
     float:left;
     display: block;
 }
+/*Environment*/
+.Environment{
+    display: flow-root;
+}
+.Environment>figcaption{
+    width: 92%;
+    float:right;
+    display: block;
+    color:#48AC33;
+    font-weight: bold;
+    font-size: 18px;
+    border-left:solid;
+    border-color:#48AC33;
+    padding-left: 5px;
+	margin-top: 15px;
+}
+.Environment>figcaption>span{
+    display: none;
+}
+
+.Environment>img{
+    width: 7%;
+    float:left;
+    display: block;
+}
+.Environment::after{
+    content: "";
+  display: block;
+  clear: both;
+}
+
+/*notice*/
+.Notice{
+    display: block;
+}
+.Notice>figcaption{
+    width: 89%;
+    float:right;
+    display: block;
+    color:#236FB6;
+    font-weight: bold;
+    font-size: 14px;
+}
+.Notice>figcaption>span{
+    display: none;
+}
+.Notice>p{
+     width: 89%;
+    float:right;
+    display: block;
+    color:black;
+    border-width:2px;
+    border-left:solid;
+    border-color:#236FB6;
+    padding-left: 5px;
+	margin-top: 0px;
+    margin-bottom: 5px;
+}
+.Notice>img{
+    width: 10%;
+    float:left;
+    display: block;
+}
+.Notice::after{
+    content: "";
+  display: block;
+  clear: both;
+}
 
 
 
