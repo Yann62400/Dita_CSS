@@ -645,39 +645,7 @@ ol[class='HaltonBlackList']> .p{
     float:left;
     display: block;
 }
-/*Sustainability*/
-.Sustainability{
-    display: block;
-    /*width:650px;*/
-    padding:10px 0 10px 0;
-}
-.Sustainability>figcaption{
-    width: 89%;
-    float:right;
-    display: block;
-    color:black;
-    font-weight: bold;
-    font-size: 14px;
-}
-.Sustainability>figcaption>span{
-    display: none;
-}
-.Sustainability>p{
-     width: 89%;
-    float:right;
-    display: block;
-    color:black;
-    border-width:2px;
-    border-left:solid;
-    border-color:black;
-    padding-left: 5px;
-	margin-top: 0px;
-}
-.Sustainability>img{
-    width: 10%;
-    float:left;
-    display: block;
-}
+
 
 
 
