@@ -98,198 +98,36 @@
 }
 /* Down recentrage */
 
-/* test right/left*/
-[class*='Left05']{
-    width: 4%;
+/*right/left*/
+.Left05,.Left10,.Left15,.Left20,.Left25,.Left30,.Left35,.Left40,.Left45,.Left50,.Left55,.Left60,.Left65,.Left70,.Left75,.Left80,.Left85,.Left90,.Left95{
     float:left;
     display: block;
 }
-[class*='Right05']{
-    width: 4%;
+.Right05,.Right10,.Right15,.Right20,.Right25,.Right30,.Right35,.Right40,.Right45,.Right50,.Right55,.Right60,.Right65,.Right70,.Right75,.Right80,.Right85,.Right90,.Right95{
     float:right;
     display: block;
 }
-[class*='Left10']{
-    width: 9%;
-    float:left;
-    display: block;
-}
-[class*='Right10']{
-    width: 9%;
-    float:right;
-    display: block;
-}
-[class*='Left15']{
-    width: 14%;
-    float:left;
-    display: block;
-}
-[class*='Right15']{
-    width: 14%;
-    float:right;
-    display: block;
-}
-[class*='Left20']{
-    width: 19%;
-    float:left;
-    display: block;
-}
-[class*='Right20']{
-    width: 19%;
-    float:right;
-    display: block;
-}
-[class*='Left25']{
-    width: 24%;
-    float:left;
-    display: block;
-}
-[class*='Right25']{
-    width: 24%;
-    float:right;
-    display: block;
-}
-[class*='Left30']{
-    width: 29%;
-    float:left;
-    display: block;
-}
-[class*='Right30']{
-    width: 29%;
-    float:right;
-    display: block;
-}
-[class*='Left35']{
-    width: 34%;
-    float:left;
-    display: block;
-}
-[class*='Right35']{
-    width: 34%;
-    float:right;
-    display: block;
-}
-[class*='Left40']{
-    width: 39%;
-    float:left;
-    display: block;
-}
-[class*='Right40']{
-    width: 39%;
-    float:right;
-    display: block;
-}
-[class*='Left45']{
-    width: 44%;
-    float:left;
-    display: block;
-}
-[class*='Right45']{
-    width: 44%;
-    float:right;
-    display: block;
-}
-[class*='Left50']{
-    width: 49%;
-    float:left;
-    display: block;
-}
-[class*='Right50']{
-    width: 49%;
-    float:right;
-    display: block;
-}
-[class*='Left55']{
-    width: 54%;
-    float:left;
-    display: block;
-}
-[class*='Right55']{
-    width: 54%;
-    float:right;
-    display: block;
-}
-[class*='Left60']{
-    width: 59%;
-    float:left;
-    display: block;
-}
-[class*='Right60']{
-    width: 59%;
-    float:right;
-    display: block;
-}
-[class*='Left65']{
-    width: 64%;
-    float:left;
-    display: block;
-}
-[class*='Right65']{
-    width: 64%;
-    float:right;
-    display: block;
-}
-[class*='Left70']{
-    width: 69%;
-    float:left;
-    display: block;
-}
-[class*='Right70']{
-    width: 69%;
-    float:right;
-    display: block;
-}
-[class*='Left75']{
-    width: 74%;
-    float:left;
-    display: block;
-}
-[class*='Right75']{
-    width: 74%;
-    float:right;
-    display: block;
-}
-[class*='Left80']{
-    width: 79%;
-    float:left;
-    display: block;
-}
-[class*='Right80']{
-    width: 79%;
-    float:right;
-    display: block;
-}
-[class*='Left85']{
-    width: 84%;
-    float:left;
-    display: block;
-}
-[class*='Right85']{
-    width: 84%;
-    float:right;
-    display: block;
-}
-[class*='Left90']{
-    width: 89%;
-    float:left;
-    display: block;
-}
-[class*='Right90']{
-    width: 89%;
-    float:right;
-    display: block;
-}
-[class*='Left95']{
-    width: 94%;
-    float:left;
-    display: block;
-}
-[class*='Right95']{
-    width: 94%;
-    float:right;
-    display: block;
-}
-/* test right/left*/
+
+.Right05,.Left05{width: 4%;}
+.Right10,.Left10{width: 8%;}
+.Right15,.Left15{width: 14%;}
+.Right20,.Left20{width: 19%;}
+.Right25,.Left25{width: 24%;}
+.Right30,.Left30{width: 29%;}
+.Right35,.Left35{width: 34%;}
+.Right40,.Left40{width: 39%;}
+.Right45,.Left45{width: 44%;}
+.Right50,.Left50{width: 49%;}
+.Right55,.Left55{width: 54%;}
+.Right60,.Left60{width: 59%;}
+.Right65,.Left65{width: 64%;}
+.Right70,.Left70{width: 69%;}
+.Right75,.Left75{width: 74%;}
+.Right80,.Left80{width: 79%;}
+.Right85,.Left85{width: 84%;}
+.Right90,.Left90{width: 89%;}
+.Right90,.Left90{width: 94%;}
+
 
 /* SECTION ***col******/
 section[class='section col']{
