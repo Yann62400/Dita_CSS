@@ -70,34 +70,34 @@
 /* Down recentrage */
 
 /*right/left*/
-.Left05,.Left10,.Left15,.Left20,.Left25,.Left30,.Left35,.Left40,.Left45,.Left50,.Left55,.Left60,.Left65,.Left70,.Left75,.Left80,.Left85,.Left90,.Left95{
+.left05,.left10,.left15,.left20,.left25,.left30,.left35,.left40,.left45,.left50,.left55,.left60,.left65,.left70,.left75,.left80,.left85,.left90,.left95{
     float:left;
     display: block;
 }
-.Right05,.Right10,.Right15,.Right20,.Right25,.Right30,.Right35,.Right40,.Right45,.Right50,.Right55,.Right60,.Right65,.Right70,.Right75,.Right80,.Right85,.Right90,.Right95{
+.right05,.right10,.right15,.right20,.right25,.right30,.right35,.right40,.right45,.right50,.right55,.right60,.right65,.right70,.right75,.right80,.right85,.right90,.right95{
     float:right;
     display: block;
 }
 
-.Right05,.Left05{width: 4%;}
-.Right10,.Left10{width: 8%;}
-.Right15,.Left15{width: 14%;}
-.Right20,.Left20{width: 19%;}
-.Right25,.Left25{width: 24%;}
-.Right30,.Left30{width: 29%;}
-.Right35,.Left35{width: 34%;}
-.Right40,.Left40{width: 39%;}
-.Right45,.Left45{width: 44%;}
-.Right50,.Left50{width: 49%;}
-.Right55,.Left55{width: 54%;}
-.Right60,.Left60{width: 59%;}
-.Right65,.Left65{width: 64%;}
-.Right70,.Left70{width: 69%;}
-.Right75,.Left75{width: 74%;}
-.Right80,.Left80{width: 79%;}
-.Right85,.Left85{width: 84%;}
-.Right90,.Left90{width: 89%;}
-.Right90,.Left90{width: 94%;}
+.right05,.left05{width: 4%;}
+.right10,.left10{width: 8%;}
+.right15,.left15{width: 14%;}
+.right20,.left20{width: 19%;}
+.right25,.left25{width: 24%;}
+.right30,.left30{width: 29%;}
+.right35,.left35{width: 34%;}
+.right40,.left40{width: 39%;}
+.right45,.left45{width: 44%;}
+.right50,.left50{width: 49%;}
+.right55,.left55{width: 54%;}
+.right60,.left60{width: 59%;}
+.right65,.left65{width: 64%;}
+.right70,.left70{width: 69%;}
+.right75,.left75{width: 74%;}
+.right80,.left80{width: 79%;}
+.right85,.left85{width: 84%;}
+.right90,.left90{width: 89%;}
+.right95,.left95{width: 94%;}
 
 
 /* SECTION ***col******/
