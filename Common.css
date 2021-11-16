@@ -313,6 +313,20 @@ section[class='section col']> .p,.ol,.ul{
 
 /* SECTION ***col**End****/
 
+/*column*/
+.column2, .column3, .column4{
+    position: relative;
+    display: block;
+    page-break-inside: avoid;
+    font-size: 0.7rem;
+    break-inside: auto;
+    clear:both;
+    padding-bottom:5px;
+}
+.column2{column-count: 2;}
+.column3{column-count: 3;}
+.column4{column-count: 4;}
+
 /***col**tittle****/
 
 [class*='col']>h2{
