@@ -1,45 +1,16 @@
-[class*='hl-blue']{
-    display: inline; 
-    padding-top: 1px;
-	padding-bottom: 1px;
-	padding-right: 5px;
-	padding-left: 5px;
-	color: white;
-    box-sizing: border-box;
-    background-color: #2499D5;
-}
-
-[class*='hl-red']{
-    display: inline; 
-    padding-top: 1px;
-	padding-bottom: 1px;
-	padding-right: 5px;
-	padding-left: 5px;
-	color: white;
-    box-sizing: border-box;
-    background-color: #D2523E;
-}
-
-[class*='hl-grey']{
+/*hl => highlight color/backgroundcolor*/
+.hl-blue,.hl-red,.hl-grey,.hl-blackblue{
     display: inline; 
     padding-top: 1px;
 	padding-bottom: 1px;
 	padding-right: 5px;
 	padding-left: 5px;
     box-sizing: border-box;
-    background-color: #DADADA;
 }
-
-[class*='hl-blackblue']{
-    display: inline; 
-    padding-top: 1px;
-	padding-bottom: 1px;
-	padding-right: 5px;
-	padding-left: 5px;
-    box-sizing: border-box;
-    background-color: #2499D5;
-    color: #000000;
-}
+.hl-blue{color: white;background-color: #2499D5;}
+.hl-red{color: white;background-color: #D2523E;}
+.hl-grey{background-color: #DADADA;}
+.hl-blackblue{color: #000000;background-color: #2499D5;}
 
 [class*='HTSUser']{
     display: inline; 
