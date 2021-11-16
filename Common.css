@@ -39,7 +39,7 @@
     }
 
 /*Sticker*/
-.sticker_blue,sticker_red{
+.sticker_blue,.sticker_red{
 	display: inline; 
     padding: 5px;
     box-sizing: border-box;
