@@ -14,22 +14,15 @@
 .hl-blackblue{color: #000000;background-color: #2499D5;}
 
 /*Special highlight*/
-[class*='HTSUser']{
-    display: inline; 
+.hl-user,.hl-admin{
+display: inline; 
     padding: 5px;
     box-sizing: border-box;
-    background-color: #009DDD;
-    color: #fff;
 }
-[class*='HTSAdmin']{
-    display: inline; 
-    padding: 5px;
-    box-sizing: border-box;
-    background-color: #6E7275;
-    color: #fff;
-}
+.hl-user{background-color: #009DDD;color: #fff;}
+.hl-admin{background-color: #6E7275;color: #fff;}
 
-[class*='smarteh']{
+.hl-smarteh{
 	display: inline; 
     background-color: whitesmoke;
     color: grey;
