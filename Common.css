@@ -120,7 +120,12 @@ section[class='section col']> .p,.ol,.ul{
     margin: 0.1rem;
 }
 
-/* SECTION ***col**End****/
+[class*='col']>h2{
+    column-span:all;
+    display: block;
+}
+
+
 
 /*column*/
 .column2, .column3, .column4{
@@ -136,51 +141,9 @@ section[class='section col']> .p,.ol,.ul{
 .column3{column-count: 3;}
 .column4{column-count: 4;}
 
-/***col**tittle****/
 
-[class*='col']>h2{
-    column-span:all;
-    display: block;
-}
 
-/****2col******/
-[class*='2col']{
-    column-count: 2;
-    /*column-gap: 1em;*/
-    position: relative;
-    display: block;
-    page-break-inside: avoid;
-    font-size: 0.7rem;
-    break-inside: auto;
-    clear:both;
-    padding-bottom:5px;
-}
 
-/* ***3col******/
-[class*='3col']{
-    column-count: 3;
-    /*column-gap: 1em;*/
-    position: relative;
-    display: block;
-    page-break-inside: avoid;
-    font-size: 0.7rem;
-    break-inside: auto;
-    clear:both;
-    padding-bottom:5px;
-}
-
-/****4col******/
-[class*='4col']{
-    column-count: 4;
-    /*column-gap: 1em;*/
-    position: relative;
-    display: block;
-    page-break-inside: avoid;
-    font-size: 0.7rem;
-    break-inside: auto;
-    clear:both;
-    padding-bottom:5px;
-}
 /*halton list*/
 ol.HaltonList,ol.HaltonBlackList{
     position: relative;
@@ -261,22 +224,22 @@ ol.HaltonList>p,ol.HaltonBlackList>p{
     display: block;
 }
 
-[class*='bframe']{
+.bframe{
     border-width:0.5px;
     border-style:solid;
     border-color:black;
 }
 
-[class*='center']{
+.center{
     text-align: center;
 }
 
 /* Warnings etc..*/
-.guideref, .Warning, .Caution, .Danger, .Sustainability, .Notice, .Environment {
+.guideref, .warning, .caution, .danger, .sustainability, .notice, .environment {
     display: block;
 }
 
-.guideref>figcaption, .Warning>figcaption, .Caution>figcaption, .Danger>figcaption, .Sustainability>figcaption, .Notice>figcaption {
+.guideref>figcaption, .warning>figcaption, .caution>figcaption, .danger>figcaption, .sustainability>figcaption, .notice>figcaption {
     width: 89%;
     float:right;
     display: block;
@@ -285,13 +248,13 @@ ol.HaltonList>p,ol.HaltonBlackList>p{
 }
 
 .guideref>figcaption{color:#2499d5;}
-.Warning>figcaption{color:#F08118;}
-.Caution>figcaption{color:#F4E724;}
-.Danger>figcaption{color:#CE1327;}
-.Sustainability>figcaption{color:black;}
-.Notice>figcaption{color:#236FB6;}
+.warning>figcaption{color:#F08118;}
+.caution>figcaption{color:#F4E724;}
+.danger>figcaption{color:#CE1327;}
+.sustainability>figcaption{color:black;}
+.notice>figcaption{color:#236FB6;}
 
-.Environment>figcaption {    
+.environment>figcaption {    
     width: 92%;
     float:right;
     display: block;
@@ -303,10 +266,10 @@ ol.HaltonList>p,ol.HaltonBlackList>p{
     padding-left: 5px;
     margin-top: 15px;
 }
-.guideref>figcaption>span, .Warning>figcaption>span, .Caution>figcaption>span, .Danger>figcaption>span, .Sustainability>figcaption>span, .Notice>figcaption>span, .Environment>figcaption>span {
+.guideref>figcaption>span, .warning>figcaption>span, .caution>figcaption>span, .danger>figcaption>span, .sustainability>figcaption>span, .notice>figcaption>span, .environment>figcaption>span {
     display: none;
 }
-.guideref>p, .Warning>p, .Caution>p, .Danger>p, .Sustainability>p, .Notice>p {
+.guideref>p, .warning>p, .caution>p, .danger>p, .sustainability>p, .notice>p {
     width: 89%;
     float:right;
     display: block;
@@ -318,24 +281,24 @@ ol.HaltonList>p,ol.HaltonBlackList>p{
     margin-bottom: 5px;
 }
 .guideref>p{border-color:#2499d5;}
-.Warning>p{border-color:#F08118;}
-.Caution>p{border-color:#F4E724;}
-.Danger>p{border-color:#CE1327;}
-.Sustainability>p{border-color:black;}
-.Notice>p{border-color:#236FB6;}
+.warning>p{border-color:#F08118;}
+.caution>p{border-color:#F4E724;}
+.danger>p{border-color:#CE1327;}
+.sustainability>p{border-color:black;}
+.notice>p{border-color:#236FB6;}
 
-.guideref>img, .Warning>img, .Caution>img, .Danger>img, .Sustainability>img, .Notice>img {
+.guideref>img, .warning>img, .caution>img, .danger>img, .sustainability>img, .notice>img {
     width: 10%;
     float:left;
     display: block;
 }
-.Environment>img{
+.environment>img{
     width: 7%;
     float:left;
     display: block;
 }
 
-.guideref::after, .Warning::after, .Caution::after, .Danger::after, .Sustainability::after, .Notice::after, .Environment::after {
+.guideref::after, .warning::after, .caution::after, .danger::after, .sustainability::after, .notice::after, .environment::after {
     content: "";
     display: block;
     clear: both;
