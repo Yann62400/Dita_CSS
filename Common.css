@@ -38,6 +38,19 @@
     padding: 1px 2px;
     }
 
+/*Sticker*/
+.sticker_blue,sticker_red{
+	display: inline; 
+    padding: 5px;
+    box-sizing: border-box;
+    margin-right: 5px;
+}
+.sticker_blue{background-color: #2499D5;color: #fff;}
+.sticker_red{background-color: red;color: #fff;}
+
+.sticker_blue>img,sticker_red>img{width:20px;vertical-align:middle;}
+
+
 [class*='Clickable']{
     display: inline; 
     padding: 5px;
