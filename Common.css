@@ -48,7 +48,7 @@
 .sticker_blue{background-color: #2499D5;color: #fff;}
 .sticker_red{background-color: red;color: #fff;}
 
-.sticker_blue>img,sticker_red>img{width:20px;vertical-align:middle;}
+.sticker_blue>img,.sticker_red>img{width:20px;vertical-align:middle;}
 
 
 [class*='Clickable']{
