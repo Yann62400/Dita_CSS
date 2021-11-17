@@ -33,30 +33,17 @@ display: inline;
     }
 
 /*Sticker*/
-.sticker_blue,.sticker_red{
+.sticker-blue,.sticker-red{
 	display: inline; 
     padding: 5px;
     box-sizing: border-box;
     margin-right: 5px;
 }
-.sticker_blue{background-color: #2499D5;color: #fff;}
-.sticker_red{background-color: red;color: #fff;}
+.sticker-blue{background-color: #2499D5;color: #fff;}
+.sticker-red{background-color: red;color: #fff;}
 
-.sticker_blue>img,.sticker_red>img{width:20px;vertical-align:middle;}
+.sticker-blue>img,.sticker_red>img{width:20px;vertical-align:middle;}
 
-
-[class*='Clickable']{
-    display: inline; 
-    padding: 5px;
-    box-sizing: border-box;
-    background-color: #2499D5;
-    color: #fff;
-    margin-right: 5px;
-}
-[class*='Clickable']>img{
-    width:20px;
-    vertical-align:middle;
-}
 
 /*Frame*/
 .bframe,.rframe{
