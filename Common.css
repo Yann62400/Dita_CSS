@@ -46,12 +46,12 @@ display: inline;
 
 
 /*Frame*/
-.bframe,.rframe{
+.frame-black,.frame-red{
     border-width:0.5px;
     border-style:solid;
 }
-.bframe{border-color:black;}
-.rframe{border-color:red;}
+.frame-black{border-color:black;}
+.frame-red{border-color:red;}
 
 
 /*right-left*/
