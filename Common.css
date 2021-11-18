@@ -104,18 +104,18 @@ display: inline;
 .column2>h5, .column3>h5, .column4>h5{column-span:all;display: block;} /* title position on section h5*/
 
 /*halton list*/
-ol.HaltonList,ol.HaltonBlackList{
+ol.list-num-hblue,ol.list-alpha-black{
     position: relative;
     display: block;
     page-break-inside: avoid;
     counter-reset: items; /* counter initialize + name 'items' */
 }
-ol.HaltonList>li,ol.HaltonBlackList>li{
+ol.list-num-hblue>li,ol.list-alpha-black>li{
     list-style-type: none;
 	counter-increment: items; /* counter increment */
     page-break-inside: avoid;
 }
-ol.HaltonList>li:before,ol.HaltonBlackList>li:before{
+ol.list-num-hblue>li:before,ol.list-alpha-black>li:before{
     margin-left: -25px;
     border-radius: 50%;
     width: 12px;
@@ -126,15 +126,15 @@ ol.HaltonList>li:before,ol.HaltonBlackList>li:before{
     font: 10px Arial, sans-serif;
     float: left;
 }
-ol.HaltonList>li:before{
+ol.list-num-hblue>li:before{
     content: counter(items); /* counter display */
     background: #2499D5;
 }
-ol.HaltonBlackList>li:before{
+ol.list-alpha-black>li:before{
     content: counter(items,upper-alpha); /* counter display */
     background: #000000;
 }
-ol.HaltonList>p,ol.HaltonBlackList>p{
+ol.list-num-hblue>p,ol.list-alpha-black>p{
     font-size: 12px;
     display: inline;
     position: relative;
