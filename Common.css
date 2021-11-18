@@ -57,11 +57,11 @@ display: inline;
 /*right-left*/
 .left05,.left10,.left15,.left20,.left25,.left30,.left35,.left40,.left45,.left50,.left55,.left60,.left65,.left70,.left75,.left80,.left85,.left90,.left95{
     float:left;
-    display: block;
+    /*display: block;*/
 }
 .right05,.right10,.right15,.right20,.right25,.right30,.right35,.right40,.right45,.right50,.right55,.right60,.right65,.right70,.right75,.right80,.right85,.right90,.right95{
     float:right;
-    display: block;
+    /*display: block;*/
 }
 
 .right05,.left05{width: 4%;}
