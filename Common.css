@@ -238,6 +238,37 @@ ol.list-num-hblue>p,ol.list-alpha-black>p{
     border-color: #2499d5;
 }
 /*table*/
+.ftable-hblue,.ftable-lgrey{
+    width: 100%;
+    white-space: normal;
+    page-break-inside: auto; 
+}
+.ftable-hblue p,.ftable-lgrey p{
+    font-size: 12px;
+}
+.ftable-hblue thead>tr,.ftable-lgrey thead>tr{
+    height: 20px;
+}
+.ftable-hblue th,.ftable-lgrey th{
+    text-align: center;
+    vertical-align: middle;
+}
+.ftable-hblue tr,.ftable-lgrey tr{
+    border-top: initial;
+    height: 20px;
+}
+.ftable-hblue td,.ftable-lgrey td{
+    page-break-inside: avoid;
+}
+
+.ftable-hblue thead>tr{
+    color: white;
+    background-color:#2499d5;
+}
+.ftable-lgrey thead>tr{
+    color: black;
+    background-color:lightgrey;
+}
 
 
 
