@@ -74,3 +74,12 @@ p{
 .font-orange{color:orange;}
 .font-hblue{color:#2499d5;}
 
+.font-9{font-size: 12px;}
+.font-13{font-size: 17px;;}
+
+.font-9_13{font-size: 12px;line-height: 17px;}
+.font-13_16{font-size: 17px;line-height: 22px;}
+
+
+
+
