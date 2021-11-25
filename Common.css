@@ -309,7 +309,7 @@ h1.icontech>img.image,h1.icontechsub>img.image{
 h1.icontech>img.image{transform: translateY(-25px);}
 h1.icontechsub>img.image{transform: translateY(-10px);}
 
-h1.icontech>img.qrcode,h1.icontechSub>img.qrcode{
+h1.icontech>img.qrcode,h1.icontechsub>img.qrcode{
     display: inline;
     float: right;
     width: 75px;
