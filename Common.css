@@ -270,6 +270,19 @@ ol.list-num-hblue>p,ol.list-alpha-black>p{
     background-color:lightgrey;
 }
 
+/**figure legend**/
+figure.legend{
+    display: table;
+}
+figure.legend>figcaption{
+    display: table-caption;
+    caption-side: bottom;
+    font-size: 12px;
+}
+figure.legend>figcaption>span{
+    display: none;
+}
+
 
 
 /*****************************   NOT CLEAN  ******************/
