@@ -320,6 +320,38 @@ h1.icontechsub>span.ph{
     font-size: 12px;
 }
 
+/*Tech*/
+figure.tech{
+    width: 220px;
+    height: 60px;
+    /*border:1px dotted black;*/
+    line-height: 100%;
+    display: inline-block;
+    overflow: hidden;
+    vertical-align: text-top;
+}
+
+figure.tech>.image{
+    width: 55px;
+    /*border:1px dotted red;*/
+    float:left;
+    overflow: hidden;
+}
+
+figure.tech>.p{
+    position:relative;
+    top:-5px;
+    font-size: 10px;
+    line-height: 11px;
+    /*border:1px dotted black;*/
+}
+
+figure.tech>.p>strong{
+    display: block;
+    font-size: 11px;
+    margin-bottom: 5px;
+}
+
 
 /*****************************   NOT CLEAN  ******************/
 
