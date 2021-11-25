@@ -283,6 +283,11 @@ figure.legend>figcaption>span{
     display: none;
 }
 
+/*nocap*/
+figure.nocap>figcaption>span{
+    display: none;
+}
+
 
 
 /*****************************   NOT CLEAN  ******************/
