@@ -285,7 +285,7 @@ figure.legend>figcaption{
 	line-height: 10px;
 }
 figure.legend>figcaption>span{
-    display: none;
+    /*display: none;
 }
 
 /*nocap*/
