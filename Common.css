@@ -161,14 +161,6 @@ ol.list-num-hblue>p,ol.list-alpha-black>p{
 .sustainability>figcaption{color:black;}
 .notice>figcaption{color:#236FB6;}
 
-.guideref>p{border-color:#2499d5;}
-.warning>p{border-color:#F08118;}
-.caution>p{border-color:#F4E724;}
-.danger>p{border-color:#CE1327;}
-.sustainability>p{border-color:black;}
-.notice>p{border-color:#236FB6;}
-
-
 .environment>figcaption {    
     width: 92%;
     float:right;
@@ -195,6 +187,13 @@ ol.list-num-hblue>p,ol.list-alpha-black>p{
 	margin-top: 0px;
     margin-bottom: 5px;
 }
+
+.guideref>p{border-color:#2499d5;}
+.warning>p{border-color:#F08118;}
+.caution>p{border-color:#F4E724;}
+.danger>p{border-color:#CE1327;}
+.sustainability>p{border-color:black;}
+.notice>p{border-color:#236FB6;}
 
 
 .guideref>img, .warning>img, .caution>img, .danger>img, .sustainability>img, .notice>img {
