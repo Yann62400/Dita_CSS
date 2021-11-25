@@ -296,6 +296,7 @@ figure.nocap>figcaption>span{
     display: block;
     font-size: 20px;
     font-weight: normal;
+	color: #2499D5;
 }
 .icontech{padding:10px 0;}
 
@@ -319,6 +320,7 @@ figure.nocap>figcaption>span{
 .icontechsub>span.ph{
     display: block;
     font-size: 12px;
+	color: #2499D5;
 }
 
 /*Tech*/
