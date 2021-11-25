@@ -90,7 +90,7 @@ display: inline;
     display: block;
     page-break-inside: avoid;
     font-size: 0.7rem;
-    break-inside: auto;
+    break-inside: avoid;
     clear:both;
     padding-bottom:5px;
 }
