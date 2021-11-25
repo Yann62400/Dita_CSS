@@ -165,13 +165,15 @@ ol.list-num-hblue>p,ol.list-alpha-black>p{
     width: 92%;
     float:right;
     display: block;
-    color:#48AC33;
     font-weight: bold;
     font-size: 18px;
     border-left:solid;
-    border-color:#48AC33;
     padding-left: 5px;
     margin-top: 15px;
+}
+.environment>figcaption {    
+    color:#48AC33;
+    border-color:#48AC33;
 }
 .guideref>figcaption>span, .warning>figcaption>span, .caution>figcaption>span, .danger>figcaption>span, .sustainability>figcaption>span, .notice>figcaption>span, .environment>figcaption>span {
     display: none;
