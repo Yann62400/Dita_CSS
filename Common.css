@@ -281,7 +281,7 @@ figure.legend{
 figure.legend>figcaption{
     display: table-caption;
     caption-side: bottom;
-    font-size: 12px;
+    font-size: 9px;
 }
 figure.legend>figcaption>span{
     display: none;
