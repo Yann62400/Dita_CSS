@@ -84,24 +84,7 @@ display: inline;
 .right90,.left90{width: 89%;}
 .right95,.left95{width: 94%;}
 
-/*column*/
-.column2, .column3, .column4{
-    position: relative;
-    display: block;
-    page-break-inside: avoid;
-    font-size: 0.7rem;
-    break-inside: avoid;
-    clear:both;
-    padding-bottom:5px;
-}
-.column2{column-count: 2;}
-.column3{column-count: 3;}
-.column4{column-count: 4;}
 
-.column2>h2, .column3>h2, .column4>h2{column-span:all;display: block;} /* title position on section h2*/
-.column2>h3, .column3>h3, .column4>h3{column-span:all;display: block;} /* title position on section h3*/
-.column2>h4, .column3>h4, .column4>h4{column-span:all;display: block;} /* title position on section h4*/
-.column2>h5, .column3>h5, .column4>h5{column-span:all;display: block;} /* title position on section h5*/
 
 /*halton list*/
 ol.list-num-hblue,ol.list-alpha-black{
