@@ -292,31 +292,31 @@ figure.nocap>figcaption>span{
     display: none;
 }
 /*Iconetech*/
-h1.icontech,h1.icontechsub{
+.icontech,.icontechsub{
     display: block;
     font-size: 20px;
     font-weight: normal;
 }
-h1.icontech{padding:10px 0;}
+.icontech{padding:10px 0;}
 
-h1.icontech>img.image,h1.icontechsub>img.image{
+.icontech>img.image,.icontechsub>img.image{
     display: inline;
     position: relative;
     float: left;
     width: 75px;
 }
-h1.icontech>img.image{transform: translateY(-25px);}
-h1.icontechsub>img.image{transform: translateY(-10px);}
+.icontech>img.image{transform: translateY(-25px);}
+.icontechsub>img.image{transform: translateY(-10px);}
 
-h1.icontech>img.qrcode,h1.icontechsub>img.qrcode{
+.icontech>img.qrcode,.icontechsub>img.qrcode{
     display: inline;
     float: right;
     width: 75px;
 }
-h1.icontech>img.qrcode{transform: translateY(-25px);}
-h1.icontechsub>img.qrcode{transform: translateY(-50px);}
+.icontech>img.qrcode{transform: translateY(-25px);}
+.icontechsub>img.qrcode{transform: translateY(-50px);}
 
-h1.icontechsub>span.ph{
+.icontechsub>span.ph{
     display: block;
     font-size: 12px;
 }
