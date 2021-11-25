@@ -154,12 +154,12 @@ ol.list-num-hblue>p,ol.list-alpha-black>p{
     font-size: 14px;
 }
 
-.guideref>figcaption,{color:#2499d5;}
-.warning>figcaption,{color:#F08118;}
-.caution>figcaption,{color:#F4E724;}
-.danger>figcaption,{color:#CE1327;}
-.sustainability>figcaption,{color:black;}
-.notice>figcaption,{color:#236FB6;}
+.guideref>figcaption{color:#2499d5;}
+.warning>figcaption{color:#F08118;}
+.caution>figcaption{color:#F4E724;}
+.danger>figcaption{color:#CE1327;}
+.sustainability>figcaption{color:black;}
+.notice>figcaption{color:#236FB6;}
 
 .guideref>p{border-color:#2499d5;}
 .warning>p{border-color:#F08118;}
