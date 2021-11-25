@@ -300,7 +300,7 @@ h1.icontech,h1.icontechsub{
 }
 h1.icontech{padding:10px 0;}
 
-h1.icontech>img.image,h1.IconTechsub>img.image{
+h1.icontech>img.image,h1.icontechsub>img.image{
     display: inline;
     position: relative;
     float: left;
