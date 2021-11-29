@@ -360,6 +360,28 @@ figure.tech>.p>strong{
 .column2>h4, .column3>h4, .column4>h4{column-span:all;display: block;} /* title position on section h4*/
 .column2>h5, .column3>h5, .column4>h5{column-span:all;display: block;} /* title position on section h5*/
 
+/*Code*/
+.codeblock{
+    display: block;
+    background-color: rgb(225, 225, 225);
+    padding:5px;
+    font-size: 10px;
+    line-height: 12px; 
+    border-width:0.5px;
+    border-style:solid;
+    border-color:black;
+}
+.codeph{
+    display: inline;
+    background-color: rgb(225, 225, 225);
+    padding:5px;
+    font-size: 10px;
+    line-height: 12px; 
+    border-width:0.5px;
+    border-style:solid;
+    border-color:black;
+}
+
 /*****************************   NOT CLEAN  ******************/
 
 /* Down recentrage */
