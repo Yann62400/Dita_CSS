@@ -345,7 +345,7 @@ figure.tech>.p>strong{
     display: block;
     page-break-inside: auto;
     font-size: 0.7rem;
-    break-inside: avoid;
+    break-inside: auto;
     clear:both;
     padding-bottom:5px;
 }
