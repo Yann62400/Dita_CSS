@@ -72,33 +72,4 @@ img[class='image Little']{
 }
 
 
-/*Icontech*/
-h1.IconTech,h1.IconTechSub{
-    display: block;
-    font-size: 20px;
-    font-weight: normal;
-    page-break-before: always;
-}
-h1.IconTech{padding:10px 0;}
 
-h1.IconTech>img.image,h1.IconTechSub>img.image{
-    display: inline;
-    position: relative;
-    float: left;
-    width: 75px;
-}
-h1.IconTech>img.image{transform: translateY(-25px);}
-h1.IconTechSub>img.image{transform: translateY(-10px);}
-
-h1.IconTech>img.qrcode,h1.IconTechSub>img.qrcode{
-    display: inline;
-    float: right;
-    width: 75px;
-}
-h1.IconTech>img.qrcode{transform: translateY(-25px);}
-h1.IconTechSub>img.qrcode{transform: translateY(-50px);}
-
-h1.IconTechSub>span.ph{
-    display: block;
-    font-size: 12px;
-}
