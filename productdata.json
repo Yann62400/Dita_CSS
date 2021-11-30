@@ -2,8 +2,8 @@
   "company" : "Halton",
   "version" : "1121",
   "product" : [
-    {
-      "name" : "KVF",
+	{
+      "name" : "Choose",
       "product_position":0,
       "heights" : [
         "555",
@@ -11,8 +11,16 @@
       ]
     },
     {
-      "name" : "KVI",
+      "name" : "KVF",
       "product_position":1,
+      "heights" : [
+        "555",
+        "400"
+      ]
+    },
+    {
+      "name" : "KVI",
+      "product_position":2,
       "heights" : [
         "555",
 		"5/4",
@@ -21,7 +29,7 @@
     },
     {
       "name" : "UVI",
-      "product_position":2,
+      "product_position":3,
       "heights" : [
         "555",
 		"5/4"
