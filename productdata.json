@@ -4,10 +4,7 @@
   "product" : [
 	{
       "name" : "Choose",
-      "product_position":0,
-      "heights" : [
-        "555",
-        "400"
+      "product_position":0
       ]
     },
     {
