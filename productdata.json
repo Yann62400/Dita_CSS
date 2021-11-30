@@ -13,7 +13,7 @@
         "555",
         "400"
       ],
-	"image":"KVF.jpg"
+	  "image":"KVF.jpg"
     },
     {
       "name" : "KVI",
@@ -23,7 +23,7 @@
 		"5/4",
         "400"
       ],
-	"image":"KVI.jpg"
+	  "image":"KVI.jpg"
     },
     {
       "name" : "UVI",
@@ -32,7 +32,7 @@
         "555",
 		"5/4"
       ],
-	"image":"UVI.jpg"
+	  "image":"UVI.jpg"
     }
   ]
 }
