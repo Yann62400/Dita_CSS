@@ -109,7 +109,7 @@ ol.list-num-hblue>li:before,ol.list-alpha-black>li:before,ol.list-num-black>li:b
     font: 10px Arial, sans-serif;
     float: left;
 }
-ol.list-num-hblue>li:before,{
+ol.list-num-hblue>li:before{
     content: counter(items); /* counter display */
     background: #2499D5;
 }
@@ -117,11 +117,11 @@ ol.list-alpha-black>li:before{
     content: counter(items,upper-alpha); /* counter display */
     background: #000000;
 }
-ol.list-alpha-hblue>li:before,{
+ol.list-alpha-hblue>li:before{
     content: counter(items,upper-alpha); /* counter display */
     background: #2499D5;
 }
-ol.list-num-black>li:before,{
+ol.list-num-black>li:before{
     content: counter(items); /* counter display */
     background: #000000;
 }
