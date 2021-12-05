@@ -1,6 +1,7 @@
 {
   "company" : "Halton",
   "version" : "1121",
+  "wall" : ["2","L","R","N"],
   "product" : [
 	{
       "name" : "Choose",
