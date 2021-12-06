@@ -286,36 +286,7 @@ figure.nocap>figcaption>span{
     display: none;
 }
 /*Iconetech*/
-.icontech,.icontechsub{
-    display: block;
-    font-size: 20px;
-    font-weight: normal;
-	color: #2499D5;
-}
-.icontech{padding:10px 0;}
 
-.icontech>img.image,.icontechsub>img.image{
-    display: inline;
-    position: relative;
-    float: left;
-    width: 50px;
-}
-.icontech>img.image{transform: translateY(-25px);}
-.icontechsub>img.image{transform: translateY(-10px);}
-
-.icontech>img.qrcode,.icontechsub>img.qrcode{
-    display: inline;
-    float: right;
-    width: 50px;
-}
-.icontech>img.qrcode{transform: translateY(-25px);}
-.icontechsub>img.qrcode{transform: translateY(-50px);}
-
-.icontechsub>span.ph{
-    display: block;
-    font-size: 12px;
-	color: #2499D5;
-}
 
 /*Tech*/
 figure.tech{
