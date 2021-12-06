@@ -412,13 +412,18 @@ figure.tech>.p>strong{
 /* Down recentrage */
 
 /*page break*/
-[class*='page-break-before'] {
+.pbreak-after{
+    page-break-after: always;
+}
+.pbreak-before{
     page-break-before: always;
+}
+.pbreak-afterh{
+    page-break-after: always;
     visibility: hidden;
 }
-
-[class*='page-break-after'] {
-    page-break-after: always;
+.pbreak-beforeh{
+    page-break-before: always;
     visibility: hidden;
 }
 /*page break*/
