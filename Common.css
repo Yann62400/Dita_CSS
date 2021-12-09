@@ -405,6 +405,13 @@ figure.tech>.p>strong{
 	font-size: 8px;
     line-height: 8px;
 }
+
+.spacer{
+    clear:both;
+    visibility: hidden;
+	font-size: 8px;
+    line-height: 8px;
+}
 /*spacer*/
 /*space13*/
 [class*='Space13']{
