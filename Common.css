@@ -190,17 +190,6 @@ ol.list-num-hblue>p,ol.list-alpha-black>p,ol.list-num-black>p,ol.list-alpha-hblu
 .notice>p{border-color:#236FB6;}
 
 
-.guideref>img, .warning>img, .caution>img, .danger>img, .sustainability>img, .notice>img {
-    width: 10%;
-    float:left;
-    display: block;
-}
-.environment>img{
-    width: 7%;
-    float:left;
-    display: block;
-}
-
 .guideref::after, .warning::after, .caution::after, .danger::after, .sustainability::after, .notice::after, .environment::after {
     content: "";
     display: block;
