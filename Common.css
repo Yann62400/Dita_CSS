@@ -303,7 +303,7 @@ figure.tech>.p>strong{
     clear: both;
 }
 .guideref>p, .warning>p, .caution>p, .danger>p, .sustainability>p, .notice>p {
-    width: 89%;
+    width: 92%;
     float:right;
     display: block;
     color:black;
@@ -314,12 +314,12 @@ figure.tech>.p>strong{
     margin-bottom: 5px;
 }
 .guideref>img, .warning>img, .caution>img, .danger>img, .sustainability>img, .notice>img {
-    width: 10%;
+    width: 7%;
     float:left;
     display: block;
 }
 .guideref>figcaption, .warning>figcaption, .caution>figcaption, .danger>figcaption, .sustainability>figcaption, .notice>figcaption {
-    width: 89%;
+    width: 92%;
     float:right;
     display: block;
     font-weight: bold;
@@ -340,7 +340,7 @@ figure.tech>.p>strong{
 .notice>p{border-color:#236FB6;}
 
 .environment>figcaption {    
-    width: 92%;
+    width: 94%;
     float:right;
     display: block;
     font-weight: bold;
@@ -350,7 +350,7 @@ figure.tech>.p>strong{
     margin-top: 15px;
 }
 .environment>img{
-    width: 7%;
+    width: 5%;
     float:left;
     display: block;
 }
@@ -359,7 +359,6 @@ figure.tech>.p>strong{
     color:#48AC33;
     border-color:#48AC33;
 }
-
 
 .guideref::after, .warning::after, .caution::after, .danger::after, .sustainability::after, .notice::after, .environment::after {
     content: "";
