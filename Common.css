@@ -402,6 +402,36 @@ figure.tech>.p>strong{
     visibility: hidden;
 }
 /*page break*/
+
+/*line break*/
+.lbreak-9{
+    display:block;
+    visibility:hidden;
+    /*border:1px dotted black;*/
+    height: 9pt;
+}
+.lbreak-10{
+    display:block;
+    /*visibility:hidden;*/
+    border:1px dotted black;
+    height: 10pt;
+}
+.lbreak-11{
+    display:block;
+    visibility:hidden;
+    /*border:1px dotted black;*/
+    height: 11pt;
+}
+.slbreak-12{
+    display:block;
+    /*visibility:hidden;*/
+    border:1px dotted black;
+    height: 12pt;
+}
+/*line break*/
+
+
+
 /*spacer*/
 [class*='Spacer']{
     clear:both;
