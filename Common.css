@@ -255,7 +255,7 @@ figure.tech>.p>strong{
     break-inside: auto;
     clear:both;
     padding-bottom:5px;
-	/*column-gap: to set;*/
+	column-gap: normal;
 }
 
 .column2{column-count: 2;}
