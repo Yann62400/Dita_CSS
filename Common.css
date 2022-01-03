@@ -193,19 +193,7 @@ ol.list-num-hblue>p,ol.list-alpha-black>p,ol.list-num-black>p,ol.list-alpha-hblu
     background-color:lightgrey;
 }
 
-/**figure legend**/
-figure.legend{
-    display: table;
-}
-figure.legend>figcaption{
-    display: table-caption;
-    caption-side: bottom;
-    font-size: 9px;
-	line-height: 10px;
-}
-figure.legend>figcaption>span.fig--title-label{
-    display: none;
-}
+
 
 
 /*nocap*/
