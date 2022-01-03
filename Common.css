@@ -267,6 +267,14 @@ figure.tech>.p>strong{
 .column2>h4, .column3>h4, .column4>h4{column-span:all;display: block;} /* title position on section h4*/
 .column2>h5, .column3>h5, .column4>h5{column-span:all;display: block;} /* title position on section h5*/
 
+.column2 img,.column3 img,.column4 img{
+    display: block;
+    margin-right:auto;
+    margin-left:auto;
+    padding-right:auto;
+    padding-left:auto;
+}
+
 /*Code*/
 .codeblock{
     display: block;
