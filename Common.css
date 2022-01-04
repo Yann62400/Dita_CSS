@@ -239,7 +239,7 @@ figure.tech>.p>strong{
     position: relative;
     display: block;
     page-break-inside: auto;
-    font-size: 0.7rem;
+    /*font-size: 0.7rem;*/
     break-inside: auto;
     clear:both;
     padding-bottom:5px;
