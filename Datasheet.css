@@ -1,3 +1,31 @@
+h1{
+    color:black;
+    font-weight: lighter;
+}
+
+h1:not([id*='ariaid']){   /*Hide Map Title*/
+    display:none;
+}
+
+ h2, h3, nav::before {
+    color: #2499d5;
+    font-weight: bold;
+}
+h1, nav::before {
+    font-size: 18pt;
+}
+h2 {
+    font-size: 14pt;
+}
+h3 {
+    font-size: 12pt;
+}
+h4 {
+    font-size: 10pt;
+    color: black;
+    font-weight: bold;
+}
+
 /*Tech*/
 figure[class*='Tech']{
     width: 220px;
