@@ -403,7 +403,6 @@ figure.tech>.p>strong{
 .lbreak-9{
     display:block;
     visibility:hidden;
-    /*border:1px dotted black;*/
     height: 9pt;
 }
 .lbreak-10{
@@ -415,14 +414,17 @@ figure.tech>.p>strong{
 .lbreak-11{
     display:block;
     visibility:hidden;
-    /*border:1px dotted black;*/
     height: 11pt;
 }
-.slbreak-12{
+.lbreak-12{
     display:block;
-    /*visibility:hidden;*/
-    border:1px dotted black;
+    visibility:hidden;
     height: 12pt;
+}
+.lbreak-13{
+    display:block;
+    visibility:hidden;
+    height: 13pt;
 }
 /*line break*/
 
