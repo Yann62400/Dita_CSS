@@ -51,16 +51,14 @@ figcaption {
 .result>.fig_center{display: block; margin: 0px auto 10px auto; clear: both; width: 300px;}
 /* END FIG *********/
 
-
 /* IMAGES *********/
 img{max-width:100%}
 /**** aligned-left *********/
-img.go_left{ margin-right: 15px; float: left; margin-bottom: 20px; margin-top: 20px; width: 500px; clear: both;}
-/**** center *********/
-img.go_right{ margin-left: 15px; float: right; margin-bottom: 20px; margin-top: 20px; width: 500px; clear: both;}
+img.imageleft{ margin: 5px; float: left; clear: both;}
 /**** aligned-right *********/
-img.keep_center{display: block; margin: 5px auto;  width: 500px; clear: both;}
-
+img.imageright{ margin: 5px; float: right; clear: both;}
+/**** center *********/
+img.imagecenter{ display:block; margin: 5px auto; clear: both;}
 
 /* Table ****/
 table{
