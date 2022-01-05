@@ -11,12 +11,15 @@ p{
 .font-orange{color:orange;}
 .font-hblue{color:#2499d5;}
 
-.font-8{font-size: 8pt;}
-.font-9{font-size: 9pt;}
-.font-10{font-size: 10pt;}
-.font-11{font-size: 11pt;}
-.font-12{font-size: 12pt;}
-.font-13{font-size: 13pt;}
+.font-8, .font-8 p{font-size: 8pt;}
+.font-9,.font-9 p{font-size: 9pt;}
+.font-10,.font-10 p{font-size: 10pt;}
+.font-11,.font-11 p{font-size: 11pt;}
+.font-12,.font-12 p{font-size: 12pt;}
+.font-13,.font-13 p{font-size: 13pt;}
+
+.font-9_13,.font-9_13 p{font-size: 9pt;line-height: 13pt;}
+.font-13_16,.font-13_16 p{font-size: 13pt;line-height: 16pt;}
 
 
 
