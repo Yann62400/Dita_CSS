@@ -426,22 +426,22 @@ figure.tech>.p>strong{
     visibility:hidden;
     height: 13pt;
 }
-.blank-25{
+.space-25{
     display:block;
     visibility:hidden;
     height: 25px;
 }
-.blank-50{
+.space-50{
     display:block;
     visibility:hidden;
     height: 50px;
 }
-.blank-75{
+.space-75{
     display:block;
     visibility:hidden;
     height: 75px;
 }
-.blank-100{
+.space-100{
     display:block;
     visibility:hidden;
     height: 100px;
