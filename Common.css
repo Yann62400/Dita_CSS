@@ -426,20 +426,25 @@ figure.tech>.p>strong{
     visibility:hidden;
     height: 13pt;
 }
-.lbreak-25{
+.blank-25{
     display:block;
     visibility:hidden;
     height: 25px;
 }
-.lbreak-50{
+.blank-50{
     display:block;
     visibility:hidden;
     height: 50px;
 }
-.lbreak-75{
+.blank-75{
     display:block;
     visibility:hidden;
     height: 75px;
+}
+.blank-100{
+    display:block;
+    visibility:hidden;
+    height: 100px;
 }
 /*line break*/
 
