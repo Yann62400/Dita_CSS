@@ -40,7 +40,7 @@ display: inline;
     box-sizing: border-box;
     margin-right: 5px;
 }
-.sticker-blue{background-color: #2499D5;color: #fff;}
+.sticker-blue{background-color: var(--hblue);color: #fff;}
 .sticker-red{background-color: red;color: #fff;}
 
 .sticker-blue>img,.sticker-red>img{width:20px;vertical-align:middle;}
@@ -112,7 +112,7 @@ ol.list-num-hblue>li:before,ol.list-alpha-black>li:before,ol.list-num-black>li:b
 }
 ol.list-num-hblue>li:before{
     content: counter(items); /* counter display */
-    background: #2499D5;
+    background: var(--hblue);
 }
 ol.list-alpha-black>li:before{
     content: counter(items,upper-alpha); /* counter display */
@@ -120,7 +120,7 @@ ol.list-alpha-black>li:before{
 }
 ol.list-alpha-hblue>li:before{
     content: counter(items,upper-alpha); /* counter display */
-    background: #2499D5;
+    background:var(--hblue);
 }
 ol.list-num-black>li:before{
     content: counter(items); /* counter display */
@@ -156,10 +156,10 @@ ol.list-num-hblue>p,ol.list-alpha-black>p,ol.list-num-black>p,ol.list-alpha-hblu
     vertical-align: middle;
 }
 .ctable-hblue{
-    border-color: #2499d5
+    border-color: var(--hblue);
 }
 .ctable-hblue td{
-    border-color: #2499d5;
+    border-color: var(--hblue);
 }
 /*table*/
 .ftable-hblue,.ftable-lgrey{
@@ -187,7 +187,7 @@ ol.list-num-hblue>p,ol.list-alpha-black>p,ol.list-num-black>p,ol.list-alpha-hblu
 
 .ftable-hblue thead>tr{
     color: white;
-    background-color:#2499d5;
+    background-color:var(--hblue);
 }
 .ftable-lgrey thead>tr{
     color: black;
@@ -322,14 +322,14 @@ figure.tech>.p>strong{
     font-weight: bold;
     font-size: 14px;
 }
-.guideref>figcaption{color:#2499d5;}
+.guideref>figcaption{color:var(--hblue);}
 .warning>figcaption{color:#F08118;}
 .caution>figcaption{color:#F4E724;}
 .danger>figcaption{color:#CE1327;}
 .sustainability>figcaption{color:black;}
 .notice>figcaption{color:#236FB6;}
 
-.guideref>p{border-color:#2499d5;}
+.guideref>p{border-color:var(--hblue);}
 .warning>p{border-color:#F08118;}
 .caution>p{border-color:#F4E724;}
 .danger>p{border-color:#CE1327;}
@@ -408,8 +408,7 @@ figure.tech>.p>strong{
 }
 .lbreak-10{
     display:block;
-    /*visibility:hidden;*/
-    border:1px dotted black;
+    visibility:hidden;
     height: 10pt;
 }
 .lbreak-11{
