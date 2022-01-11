@@ -8,7 +8,8 @@ p{
 
 .font-red{color:red;}
 .font-orange{color:orange;}
-.font-hblue{color:var(--hblue);;}
+.font-hblue{color:var(--hblue);}
+.font-hbluelight{color:var(--hbluelight);}
 
 .font-8, .font-8 p{font-size: 8pt;}
 .font-9,.font-9 p{font-size: 9pt;}
