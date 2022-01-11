@@ -8,7 +8,7 @@ h1:not([id*='ariaid']){   /*Hide Map Title*/
 }
 
  h2, h3, nav::before {
-    color: #2499d5;
+    color: var(--hblue);
     font-weight: bold;
 }
 h1, nav::before {
@@ -65,7 +65,7 @@ p[class='p BlueShape']{
     width: 95%;
     font-size: 12px;
     padding: 5px 10px 5px 10px;
-    background-color: #2499d5;
+    background-color: var(--hblue);
     color: white;
     border-radius: 25px;
     text-align: center;
