@@ -22,51 +22,24 @@ p{
 .font-13_16,.font-13_16 p{font-size: 13pt;line-height: 16pt;}
 
 /*line break*/
-.lbreak-9{
+.lbreak-9,.lbreak-10,.lbreak-11,.lbreak-12,.lbreak-13{
     display:block;
     visibility:hidden;
-    height: 9pt;
 }
-.lbreak-10{
+.lbreak-9{height: 9pt;}
+.lbreak-10{height: 10pt;}
+.lbreak-11{height: 11pt;}
+.lbreak-12{height: 12pt;}
+.lbreak-13{height: 13pt;}
+
+.space-25,.space-50,.space-75,.space-100{
     display:block;
     visibility:hidden;
-    height: 10pt;
 }
-.lbreak-11{
-    display:block;
-    visibility:hidden;
-    height: 11pt;
-}
-.lbreak-12{
-    display:block;
-    visibility:hidden;
-    height: 12pt;
-}
-.lbreak-13{
-    display:block;
-    visibility:hidden;
-    height: 13pt;
-}
-.space-25{
-    display:block;
-    visibility:hidden;
-    height: 25px;
-}
-.space-50{
-    display:block;
-    visibility:hidden;
-    height: 50px;
-}
-.space-75{
-    display:block;
-    visibility:hidden;
-    height: 75px;
-}
-.space-100{
-    display:block;
-    visibility:hidden;
-    height: 100px;
-}
+.space-25{height: 25px;}
+.space-50{height: 50px;}
+.space-75{height: 75px;}
+.space-100{height: 100px;}
 /*line break*/
 
 
