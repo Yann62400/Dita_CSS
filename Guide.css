@@ -9,7 +9,7 @@ h1[class='title topictitle1']>img[class='image FrontPic']{
 
 h1[class='title topictitle1']>span[class='ph Product']{
     display: block;
-    color: #2499d5;
+    color: var(--hblue);
     padding-top: 5px;
     font-size: 30px;
 }
