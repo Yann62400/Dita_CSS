@@ -54,6 +54,16 @@ display: inline;
 .frame-black{border-color:black;}
 .frame-red{border-color:red;}
 
+/*line*/
+[class*='hline'] {
+    border-color: grey;
+    border-top-style: none;
+    border-right-style: none;
+    border-bottom-style: solid;
+    border-left-style: none;
+    border-width: 0.5px;
+}
+
 
 /*right-left*/
 .left05,.left10,.left15,.left20,.left25,.left30,.left35,.left40,.left45,.left50,.left55,.left60,.left65,.left70,.left75,.left80,.left85,.left90,.left95{
