@@ -400,56 +400,6 @@ figure.tech>.p>strong{
 }
 /*page break*/
 
-/*line break*/
-.lbreak-9{
-    display:block;
-    visibility:hidden;
-    height: 9pt;
-}
-.lbreak-10{
-    display:block;
-    visibility:hidden;
-    height: 10pt;
-}
-.lbreak-11{
-    display:block;
-    visibility:hidden;
-    height: 11pt;
-}
-.lbreak-12{
-    display:block;
-    visibility:hidden;
-    height: 12pt;
-}
-.lbreak-13{
-    display:block;
-    visibility:hidden;
-    height: 13pt;
-}
-.space-25{
-    display:block;
-    visibility:hidden;
-    height: 25px;
-}
-.space-50{
-    display:block;
-    visibility:hidden;
-    height: 50px;
-}
-.space-75{
-    display:block;
-    visibility:hidden;
-    height: 75px;
-}
-.space-100{
-    display:block;
-    visibility:hidden;
-    height: 100px;
-}
-/*line break*/
-
-
-
 /*spacer*/
 [class*='Spacer']{
     clear:both;
@@ -465,28 +415,28 @@ figure.tech>.p>strong{
     line-height: 8px;
 }
 /*spacer*/
-/*space13*/
-[class*='Space13']{
-    clear:both;
-    visibility: hidden;
-	font-size: 17px;
-    line-height: 17px;
-}
-/*spacer*/
 
-[class*='Scale90']{
-    width: 90%;
-    display: block;
+/**figure legend**/
+figure.legend{
+    display: table;
 }
-[class*='Scale80']{
-    width: 80%;
-    display: block;
+figure.legend img{
+    margin-bottom: 5px;
 }
-[class*='Scale70']{
-    width: 70%;
-    display: block;
+figure.legend>figcaption{
+    display: table-caption;
+    caption-side: bottom;
+    font-size: 7pt;
+	line-height: 7.5pt;
 }
-
+figure.legend>figcaption p{
+    font-size: 7pt;
+	line-height: 7.5pt;
+    margin-top: 2px;
+}
+figure.legend span.fig--title-label{
+    display: none;
+}
 
 
 
