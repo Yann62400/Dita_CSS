@@ -32,12 +32,12 @@ h1[class='title topictitle1']>span[class='ph DocType']{
 
 /*Style title*/
 h1, h2, h3, nav::before {
-    color: #2499d5;
+    color: var(--hblue);
     font-weight: bold;
 }
 h1, nav::before {
     font-size: 18pt;
-    color: #2499d5;
+    color: var(--hblue);
     font-weight: bold;
 }
 h2 {
@@ -47,7 +47,7 @@ h2 {
 }
 h3 {
     font-size: 12pt;
-    color: #2499d5;
+    color: var(--hblue);
     font-weight: bold;
 }
 h4 {
