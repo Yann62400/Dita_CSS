@@ -21,7 +21,53 @@ p{
 .font-9_13,.font-9_13 p{font-size: 9pt;line-height: 13pt;}
 .font-13_16,.font-13_16 p{font-size: 13pt;line-height: 16pt;}
 
-
+/*line break*/
+.lbreak-9{
+    display:block;
+    visibility:hidden;
+    height: 9pt;
+}
+.lbreak-10{
+    display:block;
+    visibility:hidden;
+    height: 10pt;
+}
+.lbreak-11{
+    display:block;
+    visibility:hidden;
+    height: 11pt;
+}
+.lbreak-12{
+    display:block;
+    visibility:hidden;
+    height: 12pt;
+}
+.lbreak-13{
+    display:block;
+    visibility:hidden;
+    height: 13pt;
+}
+.space-25{
+    display:block;
+    visibility:hidden;
+    height: 25px;
+}
+.space-50{
+    display:block;
+    visibility:hidden;
+    height: 50px;
+}
+.space-75{
+    display:block;
+    visibility:hidden;
+    height: 75px;
+}
+.space-100{
+    display:block;
+    visibility:hidden;
+    height: 100px;
+}
+/*line break*/
 
 
 
