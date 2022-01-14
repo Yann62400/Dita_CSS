@@ -16,7 +16,7 @@ h1[class='title topictitle1']>span[class='ph Product']{
 
 h1[class='title topictitle1']>span[class='ph SubProduct']{
     display: block;
-    color: #4a4a49;
+    color: var(--grey70);
     padding-top: 5px;
     font-size: 20px;
 }
