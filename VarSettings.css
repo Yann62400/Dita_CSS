@@ -9,5 +9,5 @@ colorsample-hblue{
   display:block;
   height: 10px;
   width:10px;
-  color:(var(--hblue));
+  background-color:var(--hblue);
 }
