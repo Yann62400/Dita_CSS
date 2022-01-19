@@ -5,7 +5,7 @@
 --grey20:#dadada; 
 }
 
-colorsample-hblue{
+.colorsample-hblue{
   display:block;
   padding: 10px;
   background-color:var(--hblue);
