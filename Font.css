@@ -11,6 +11,8 @@ p{
 .font-hblue{color:var(--hblue);}
 .font-hbluelight{color:var(--hbluelight);}
 
+.font-6, .font-6 p{font-size: 6pt;}
+.font-7, .font-7 p{font-size: 7pt;}
 .font-8, .font-8 p{font-size: 8pt;}
 .font-9,.font-9 p{font-size: 9pt;}
 .font-10,.font-10 p{font-size: 10pt;}
