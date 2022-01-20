@@ -4,10 +4,7 @@
   max-width:100%;
 }
 
-/* LISTS *********/
-ul{list-style: disc; }
-li{list-style-position: outside; padding: 3px; margin-left: 15px;break-inside:avoid; }
-li p{ margin: 0px; padding: 0px;}
+
 
 
 /* AVOID PAGE BREAK ELEMENT ****/
