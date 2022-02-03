@@ -377,6 +377,65 @@ figure.tech>.p>strong{
     padding-left:auto;
 }
 
+.techflow{
+    display: flex;
+    flex-flow: row wrap;
+}
+
+figure.maintech{
+    display: flex;
+    flex-flow: row wrap;
+    width: 215px;
+    line-height: 100%;
+}
+figure.maintech>.image{
+    width: 40px;
+    height: 40px;
+    padding-right:5px;
+}
+figure.maintech>.p{
+    width: 160px;
+    font-size: 7.5pt;
+    line-height: 8pt;
+    margin-top:0px;
+    /*border:1px dotted black;*/
+}
+figure.maintech>.p>strong{
+    font-size: 7.5pt;
+}
+figure.maintech>.p>span{
+    display: block;
+    position: relative;
+    font-size: 7pt;
+}
+
+/*--------*/
+
+figure.recomtech{
+    display: flex;
+    flex-flow: row wrap;
+    width: 315px;
+    line-height: 100%;
+}
+figure.recomtech>.image{
+    width: 40px;
+    height: 40px;
+    padding-right: 5px;
+}
+figure.recomtech>.p{
+    width: 270px;
+    font-size: 7.5pt;
+    line-height: 8pt;
+    margin-top:0px;
+}
+figure.recomtech>.p>strong{
+    font-size: 7.5pt;
+}
+figure.recomtech>.p>span{
+    display: block;
+    position: relative;
+    font-size: 7pt;
+}
 
 
 
