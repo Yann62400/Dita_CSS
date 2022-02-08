@@ -2,6 +2,7 @@
 /*hl => highlight color/backgroundcolor*/
 .hl-blue,.hl-red,.hl-grey,.hl-darkgrey,.hl-blackblue{
     display: inline; 
+	font-weight: normal;
     padding-top: 1px;
 	padding-bottom: 1px;
 	padding-right: 5px;
