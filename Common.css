@@ -1,19 +1,4 @@
 
-/*hl => highlight color/backgroundcolor*/
-.hl-blue,.hl-red,.hl-grey,.hl-darkgrey,.hl-blackblue{
-    display: inline; 
-	font-weight: normal;
-    padding-top: 1px;
-	padding-bottom: 1px;
-	padding-right: 5px;
-	padding-left: 5px;
-    box-sizing: border-box;
-}
-.hl-blue{color: white;background-color: var(--hblue);}
-.hl-red{color: white;background-color: #D2523E;}
-.hl-grey{background-color: #DADADA;}
-.hl-darkgrey{color: white;background-color: #6E7275;}
-.hl-blackblue{color: #000000;background-color: #2499D5;}
 
 /*Special highlight*/
 .hl-user,.hl-admin{
