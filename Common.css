@@ -101,7 +101,7 @@ display: inline;
 ol.list-num-hblue,ol.list-alpha-black,ol.list-num-black,ol.list-alpha-hblue{
     position: relative;
     display: block;
-    page-break-inside: avoid;
+    /*page-break-inside: avoid;*/
     counter-reset: items; /* counter initialize + name 'items' */
 }
 ol.list-num-hblue>li,ol.list-alpha-black>li,ol.list-num-black>li,ol.list-alpha-hblue>li{
