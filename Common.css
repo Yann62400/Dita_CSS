@@ -514,5 +514,38 @@ figure.legend span.fig--title-label{
     display: none;
 }
 
+.footer{
+    display:block;
+    position:absolute;
+    left:0px;
+    bottom: 10px;
+    text-align: center;
+}
+.center >* {
+    display: flex;
+    justify-content: center;
+}
+p.center{
+    display: flex;
+    justify-content: center;
+}
+.center img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+img.center {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+figure[class*='center']{
+    display: block;
+    margin: 0px auto 0px auto;
+    clear: both;
+    width: 50%;
+    /*border:1px solid black;*/
+}
 
 
