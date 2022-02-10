@@ -38,12 +38,12 @@ article div.body{
     overflow: auto;
 }
 .fig>.p:first-child{margin-top: 0px;} /* Same margin correction as a section */
-
+/*
 figcaption {
     font-style: italic; 
     font-size: .9rem; 
 }
-
+*/
 /* FIG Alignment *********/
 .fig-result{margin: 10px 0px 20px 75px; padding: 15px; display: table; width: 600px; }
 .fig-result>.fig img{width: 300px;}
