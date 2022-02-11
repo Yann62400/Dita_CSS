@@ -73,6 +73,7 @@ h4 {
 
 .title{display: block;}
 .sectiontitle,.figcaption{
+  display: block; /*ajout décalage du titre*/
   font-size: 1.4rem;
   line-height: 1.3;
   font-weight:400;
