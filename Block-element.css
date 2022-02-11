@@ -23,7 +23,7 @@ article div.body{
 
 /* SECTION *********/
 .section { margin: 10px 0px 0px 0px;} /* This margin replicates the standard styling for a p */
-.section>.p:first-child{margin-top: 0px;} /* Eliminate top margin for first p if p is the first child, this prevents a double margin */
+/*.section>.p:first-child{margin-top: 0px;}  Eliminate top margin for first p if p is the first child, this prevents a double margin */
 .sectiontitle{ display: block; clear: both; }
 
 /* END SECTION *********/
