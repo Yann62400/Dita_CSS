@@ -522,5 +522,69 @@ figure[class*='center']{
     width: 50%;
     /*border:1px solid black;*/
 }
+.flexH{
+    display: flex;
+    flex-flow: row wrap;
+}
 
+.flexV{
+    display: flex;
+    flex-flow: column wrap;
+}
+
+.flexV>.sectiontitle{
+    flex: 0 1 100%;
+    width:300px;
+}
+.flexH>.sectiontitle{
+    flex:1 0 100%;
+}
+
+.flexicon,.flexiconX2{
+    display: flex;
+    flex-flow: row wrap;
+    line-height: 100%;
+    margin-top:5px;
+}
+
+
+.flexicon{width: 212px;}
+.flexiconX2{width: 257px;}
+
+/*
+.flexicon{width:33%;}
+.flexiconX2{width: 50%;}
+*/
+
+.flexicon>.image,.flexiconX2>.image{
+    width: 40px;
+    height: 40px;
+    padding-right:5px;
+    vertical-align: middle;
+}
+.flexicon>.p,.flexiconX2>.p{
+    font-size: 8pt;
+    line-height: 11pt;
+    vertical-align: middle;
+}
+
+.flexicon>.p{width: 165px;}
+.flexiconX2>.p{width: 165px;}
+
+.p>span.flexdesc{
+    display:block;
+    position:relative;
+}
+
+.icons{
+    display: inline-block;
+    padding-right: 30px;
+    font-size: 9pt;
+    }
+
+.icons>img{
+    width: 40px;
+    vertical-align: middle;
+    margin-right: 5px; 
+}
 
