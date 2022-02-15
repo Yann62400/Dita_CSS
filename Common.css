@@ -631,4 +631,39 @@ figure[class*='center']{
     vertical-align: middle;
     margin-right: 5px; 
 }
+/*Blueshape*/
+p.shape1-blue{
+    display: inline-block;
+    width: 95%;
+    /*font-size: 12px;*/
+    padding: 5px 10px 5px 10px;
+    background-color: var(--hblue);
+    color: white;
+    border-radius: 5px;
+    text-align: center;
+    margin: 5px auto;
+}
+
+p.shape1-blue>strong{
+    /*font-size: 18px;*/
+    font-weight: bold;
+}
+
+p.shape1-grey20{
+    display: inline-block;
+    width: 95%;
+    /*font-size: 12px;*/
+    padding: 5px 10px 5px 10px;
+    background-color: var(--grey20);
+    color: black;
+    border-radius: 5px;
+    text-align: center;
+    margin: 5px auto;
+}
+
+p.shape1-grey20>strong{
+    /*font-size: 18px;*/
+    font-weight: bold;
+}
+/*Blueshape*/
 
