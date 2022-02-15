@@ -25,6 +25,9 @@ p{
 .font-9_13,.font-9_13 p{font-size: 9pt;line-height: 13pt;}
 .font-13_16,.font-13_16 p{font-size: 13pt;line-height: 16pt;}
 
+.font-8_12 p{font-size: 8pt;line-height: 12pt;margin-top: -3px;}
+.font-7_11 p{font-size: 7pt;line-height: 11pt;}
+
 /*line break*/
 .lbreak-9,.lbreak-10,.lbreak-11,.lbreak-12,.lbreak-13{
     display:block;
