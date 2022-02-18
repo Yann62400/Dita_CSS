@@ -130,6 +130,7 @@ section.related-links {
 
 
 /* TABLE CONTENT *********/
+/*
 nav {
     page-break-after: always; padding-top: 40px ;
 }
@@ -145,6 +146,7 @@ nav li {
 nav li:first-child{margin-top: 20px;}
 nav li>ul li:first-child{margin-top: 5px; margin-left: 0px;}
 nav li>ul li{margin-left: 0px;}
+*/
 /* END TABLE CONTENT *********/
 
 
