@@ -129,25 +129,7 @@ section.related-links {
 /* End Related Links */
 
 
-/* TABLE CONTENT *********/
-/*
-nav {
-    page-break-after: always; padding-top: 40px ;
-}
-nav::before { content: "Contents"; font-size: 2rem; color: #ccc; 
-}
-nav a::after {
-  content: leader(".") target-counter(attr(href), page); margin-left:10px ;}
-nav a { color:#404040; text-decoration: none;}
-nav ul { margin-left: 20px;}
-nav li {
-  list-style-type: none; padding: 5px 0px; font-size: 1.2rem; font-style: italic;
-}
-nav li:first-child{margin-top: 20px;}
-nav li>ul li:first-child{margin-top: 5px; margin-left: 0px;}
-nav li>ul li{margin-left: 0px;}
-*/
-/* END TABLE CONTENT *********/
+
 
 
 
