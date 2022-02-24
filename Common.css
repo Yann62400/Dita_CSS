@@ -623,24 +623,13 @@ figure[class*='center']{
 .icons{
     display: inline-block;
     padding-right: 30px;
-    font-size: 9pt;
     }
 
 .icons>img{
-    width: 40px;
     vertical-align: middle;
     margin-right: 5px; 
 }
-.icons20{
-    display: inline-block;
-    padding-right: 30px;
-    font-size: 9pt;
-    }
 
-.icons20>img{
-    vertical-align: middle;
-    margin-right: 5px; 
-}
 
 
 /*Blueshape*/
