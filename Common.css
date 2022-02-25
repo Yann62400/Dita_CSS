@@ -562,13 +562,12 @@ p.center{
     margin-left: auto;
     margin-right: auto;
 }
-/*
+*/
 section.center{
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
 }
-
 
 
 figure[class*='center']{
