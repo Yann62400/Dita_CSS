@@ -555,6 +555,28 @@ img.center {
     margin-left: auto;
     margin-right: auto;
 }
+p.center{
+    display: flex;
+    justify-content: center;
+}
+.center img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+.center{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+section.center{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+
 
 figure[class*='center']{
     display: block;
@@ -616,7 +638,15 @@ figure[class*='center']{
     display:block;
     position:relative;
 }
+.icons{
+    display: flex;
+    padding-right: 30px;
+    }
 
+.icons>img{
+    vertical-align: middle;
+    margin-right: 5px; 
+}
 
 
 
