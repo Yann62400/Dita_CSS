@@ -540,10 +540,7 @@ figure.legend span.fig--title-label{
     bottom: 10px;
     text-align: center;
 }
-.center >* {
-    display: flex;
-    justify-content: center;
-}
+
 p.center{
     display: flex;
     justify-content: center;
