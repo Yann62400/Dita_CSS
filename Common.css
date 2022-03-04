@@ -246,7 +246,82 @@ figure.tech>.p>strong{
     border-color:black;
 }
 
+/*Warnings etc..*/
+.guideref, .warning, .caution, .danger, .sustainability, .notice, .environment {
+    display: block;
+}
 
+.guideref>figcaption>span, .warning>figcaption>span, .caution>figcaption>span, .danger>figcaption>span, .sustainability>figcaption>span, .notice>figcaption>span, .environment>figcaption>span {
+    display: none;
+}
+.guideref::after, .warning::after, .caution::after, .danger::after, .sustainability::after, .notice::after, .environment::after {
+    content: "";
+    display: block;
+    clear: both;
+}
+.guideref>p, .warning>p, .caution>p, .danger>p, .sustainability>p, .notice>p {
+    width: 92%;
+    float:right;
+    display: block;
+    color:black;
+    border-width:2px;
+    border-left:solid;
+    padding-left: 5px;
+	margin-top: 0px;
+    margin-bottom: 5px;
+}
+.guideref>img, .warning>img, .caution>img, .danger>img, .sustainability>img, .notice>img {
+    width: 7%;
+    float:left;
+    display: block;
+}
+.guideref>figcaption, .warning>figcaption, .caution>figcaption, .danger>figcaption, .sustainability>figcaption, .notice>figcaption {
+    width: 92%;
+    float:right;
+    display: block;
+    font-weight: bold;
+    font-size: 14px;
+}
+.guideref>figcaption{color:var(--hblue);}
+.warning>figcaption{color:#F08118;}
+.caution>figcaption{color:#F4E724;}
+.danger>figcaption{color:#CE1327;}
+.sustainability>figcaption{color:black;}
+.notice>figcaption{color:#236FB6;}
+
+.guideref>p{border-color:var(--hblue);}
+.warning>p{border-color:#F08118;}
+.caution>p{border-color:#F4E724;}
+.danger>p{border-color:#CE1327;}
+.sustainability>p{border-color:black;}
+.notice>p{border-color:#236FB6;}
+
+.environment>figcaption {    
+    width: 94%;
+    float:right;
+    display: block;
+    font-weight: bold;
+    font-size: 18px;
+    border-left:solid;
+    padding-left: 5px;
+    margin-top: 15px;
+}
+.environment>img{
+    width: 5%;
+    float:left;
+    display: block;
+}
+
+.environment>figcaption {    
+    color:#48AC33;
+    border-color:#48AC33;
+}
+
+.guideref::after, .warning::after, .caution::after, .danger::after, .sustainability::after, .notice::after, .environment::after {
+    content: "";
+    display: block;
+    clear: both;
+}
 
 
 /*column*/
