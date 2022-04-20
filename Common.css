@@ -1,5 +1,5 @@
 /*hl => highlight color/backgroundcolor*/
-.hl-blue,.hl-red,.hl-grey,.hl-darkgrey,.hl-blackblue{
+.hl-blue,.hl-red,.hl-grey,.hl-darkgrey,.hl-blackblue,.hl-black{
     display: inline; 
 	font-weight: normal;
     padding-top: 1px;
@@ -12,6 +12,7 @@
 .hl-red{color: white;background-color: #D2523E;}
 .hl-grey{background-color: #DADADA;}
 .hl-darkgrey{color: white;background-color: #6E7275;}
+.hl-black{color: white;background-color: black;}
 .hl-blackblue{color: #000000;background-color: #2499D5;}
 
 /*Special highlight*/
