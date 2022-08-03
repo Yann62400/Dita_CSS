@@ -66,6 +66,13 @@ display: inline;
 }
 
 
+
+/*nocap*/
+figure.nocap>figcaption>span[class*="fig--title-label"]{
+    display: none;
+}
+
+
 /*right-left*/
 .left05,.left10,.left15,.left20,.left25,.left30,.left35,.left40,.left45,.left50,.left55,.left60,.left65,.left70,.left75,.left80,.left85,.left90,.left95{
     float:left;
