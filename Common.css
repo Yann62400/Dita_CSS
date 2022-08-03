@@ -99,18 +99,18 @@ display: inline;
 
 
 /*halton list*/
-ol.list-num-hblue,ol.list-alpha-black,.list-num-black,ol.list-alpha-hblue{
+ol.list-num-hblue,ol.list-alpha-black,ol.list-num-black,ol.list-alpha-hblue{
     position: relative;
     display: block;
     /*page-break-inside: avoid;*/
     counter-reset: items; /* counter initialize + name 'items' */
 }
-ol.list-num-hblue>li,.list-alpha-black>li,ol.list-num-black>li,ol.list-alpha-hblue>li{
+ol.list-num-hblue>li,ol.list-alpha-black>li,ol.list-num-black>li,ol.list-alpha-hblue>li{
     list-style-type: none;
 	counter-increment: items; /* counter increment */
     page-break-inside: avoid;
 }
-ol.list-num-hblue>li:before,.list-alpha-black>li:before,ol.list-num-black>li:before,ol.list-alpha-hblue>li:before{
+ol.list-num-hblue>li:before,ol.list-alpha-black>li:before,ol.list-num-black>li:before,ol.list-alpha-hblue>li:before{
     margin-left: -25px;
     border-radius: 50%;
     width: 12px;
@@ -125,7 +125,7 @@ ol.list-num-hblue>li:before{
     content: counter(items); /* counter display */
     background: var(--hblue);
 }
-.list-alpha-black>li:before{
+ol.list-alpha-black>li:before{
     content: counter(items,upper-alpha); /* counter display */
     background: #000000;
 }
@@ -138,7 +138,7 @@ ol.list-num-black>li:before{
     background: #000000;
 }
 
-ol.list-num-hblue>p,.list-alpha-black>p,ol.list-num-black>p,ol.list-alpha-hblue>p{
+ol.list-num-hblue>p,ol.list-alpha-black>p,ol.list-num-black>p,ol.list-alpha-hblue>p{
     font-size: 12px;
     display: inline;
     position: relative;
