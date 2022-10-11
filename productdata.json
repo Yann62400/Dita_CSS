@@ -39,6 +39,15 @@
 		"5/4"
       ],
 	  "image":"UVI.png"
+    },
+	  {
+      "name" : "UWI",
+      "product_position":4,
+      "heights" : [
+        "555",
+		"5/4"
+      ],
+	  "image":"UVI.png"
     }
   ]
 }
